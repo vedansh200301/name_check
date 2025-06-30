@@ -2,4 +2,5 @@ fastapi
 uvicorn
 selenium
 pydantic
-requests 
+requests
+python-dotenv 
