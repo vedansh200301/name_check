@@ -9,7 +9,7 @@ import sys
 import login_with_persistence  # Import the login module
 from config import SPICE_FORM_URL # Import SPICE_FORM_URL from config
 from logging_setup import setup_logging # Import setup_logging
-from webdriver_manager.firefox import GeckoDriverManager # Import GeckoDriverManager
+# from webdriver_manager.firefox import GeckoDriverManager # Import GeckoDriverManager
 
 # Initialize logger for this module
 logger = logging.getLogger(__name__)
@@ -19,6 +19,7 @@ def setup_firefox_profile_and_options(profile_path: str):
     logger.info(f'Setting up Firefox profile from: {profile_path}')
     
     options = FirefoxOptions()
+    options.add_argument("--headless")
     if profile_path and os.path.exists(profile_path):
         options.add_argument("-profile")
         options.add_argument(profile_path)
@@ -38,10 +39,9 @@ def initialize_browser(config: dict):
         # Setup Firefox profile options
         options = setup_firefox_profile_and_options(config['meta']['firefox_profile_path'])
         
-        # Automatically download and get the path to geckodriver
-        logger.info('Attempting to automatically download/locate Geckodriver...')
-        geckodriver_path = GeckoDriverManager().install()
-        logger.info(f'Geckodriver located at: {geckodriver_path}')
+        # Path to geckodriver is now expected to be in the system's PATH
+        geckodriver_path = "/usr/local/bin/geckodriver"
+        logger.info(f'Using Geckodriver from: {geckodriver_path}')
 
         # Initialize Firefox driver
         logger.info('Starting Firefox browser.')
@@ -49,9 +49,9 @@ def initialize_browser(config: dict):
         driver = webdriver.Firefox(service=service, options=options)
         logger.info('Firefox browser started.')
         
-        # Maximize window
-        logger.info('Maximizing browser window.')
-        driver.maximize_window()
+        # Maximize window (not needed in headless mode)
+        # logger.info('Maximizing browser window.')
+        # driver.maximize_window()
         
         # Navigate to the URL
         target_url = config["meta"]["url"]
