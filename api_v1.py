@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from typing import Any, Dict
 import logging
 import time
+# import os # No longer needed
 
 # Import browser and automation setup
 import browser_setup
@@ -30,7 +31,8 @@ logger = logging.getLogger(__name__)
 app = FastAPI(
     title="Company Name Check API",
     description="An API to automate company name availability checks on the MCA portal.",
-    docs_url="/docs"
+    docs_url="/docs",
+    openapi_prefix="/name-check"
 )
 
 # Load base configuration once at startup
