@@ -1,0 +1,41 @@
+2025-06-24 11:00:25,420 [INFO] Started logging
+2025-06-24 11:00:25,420 [INFO] Starting automation script
+2025-06-24 11:00:25,420 [INFO] Loading configuration
+2025-06-24 11:00:25,421 [INFO] Loading configuration from config.json
+2025-06-24 11:00:25,421 [INFO] Configuration loaded successfully
+2025-06-24 11:00:25,421 [INFO] Initializing browser
+2025-06-24 11:00:25,421 [INFO] Starting browser initialization.
+2025-06-24 11:00:25,421 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 11:00:25,421 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 11:00:25,421 [INFO] Firefox profile setup completed.
+2025-06-24 11:00:25,421 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-24 11:00:25,421 [INFO] ====== WebDriver manager ======
+2025-06-24 11:00:25,553 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 11:00:26,457 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 11:00:26,565 [INFO] Driver [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-06-24 11:00:26,566 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-24 11:00:26,566 [INFO] Starting Firefox browser.
+2025-06-24 11:00:27,954 [INFO] Firefox browser started.
+2025-06-24 11:00:27,955 [INFO] Maximizing browser window.
+2025-06-24 11:00:27,958 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 11:00:29,742 [INFO] Page loaded.
+2025-06-24 11:00:29,743 [INFO] Checking if login is required.
+2025-06-24 11:00:29,745 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 11:00:29,745 [INFO] Already on the target page, login not required.
+2025-06-24 11:00:29,745 [INFO] No login required. Already on the target page or logged in.
+2025-06-24 11:00:29,745 [INFO] Browser initialization completed.
+2025-06-24 11:00:29,745 [INFO] Browser initialized successfully
+2025-06-24 11:00:29,745 [INFO] Starting Part A of the form
+2025-06-24 11:00:29,745 [INFO] [FORM] Waiting for page to load and okay button to be clickable
+2025-06-24 11:00:44,898 [ERROR] Element ('id', 'guideContainer-rootPanel-modal_container_copy-panel-guidebutton_65123201___widget') did not become clickable within 15s.
+2025-06-24 11:00:45,004 [ERROR] Saved error screenshot to: Error Screenshots/error_element_not_clickable_guideContainer-rootPanel-modal_container_copy-panel-guidebutton_65123201___widget_20250624-110044.png
+2025-06-24 11:00:45,004 [ERROR] Error clicking ('id', 'guideContainer-rootPanel-modal_container_copy-panel-guidebutton_65123201___widget') on attempt 1: Message: 
+
+2025-06-24 11:00:45,074 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_guideContainer-rootPanel-modal_container_copy-panel-guidebutton_65123201___widget_attempt_1_20250624-110045.png
+2025-06-24 11:00:45,074 [ERROR] [FORM] Error clicking okay button: Message: Failed to click ('id', 'guideContainer-rootPanel-modal_container_copy-panel-guidebutton_65123201___widget') after 3 retries.
+
+2025-06-24 11:00:45,147 [ERROR] Saved error screenshot to: Error Screenshots/error_click_okay_button_failure_20250624-110045.png
+2025-06-24 11:00:45,147 [ERROR] Error during automation: Message: Failed to click ('id', 'guideContainer-rootPanel-modal_container_copy-panel-guidebutton_65123201___widget') after 3 retries.
+
+2025-06-24 11:00:45,219 [ERROR] Saved error screenshot to: Error Screenshots/error_automation_script_failure_20250624-110045.png
+2025-06-24 11:01:13,652 [INFO] Browser closed

@@ -1,0 +1,119 @@
+2025-06-24 12:48:25,180 [INFO] Started logging
+2025-06-24 12:48:25,180 [INFO] Starting automation script
+2025-06-24 12:48:25,180 [INFO] Loading configuration
+2025-06-24 12:48:25,180 [INFO] Loading configuration from config.json
+2025-06-24 12:48:25,180 [INFO] Configuration loaded successfully
+2025-06-24 12:48:25,180 [INFO] Initializing browser
+2025-06-24 12:48:25,180 [INFO] Starting browser initialization.
+2025-06-24 12:48:25,180 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 12:48:25,180 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 12:48:25,180 [INFO] Firefox profile setup completed.
+2025-06-24 12:48:25,180 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-24 12:48:25,180 [INFO] ====== WebDriver manager ======
+2025-06-24 12:48:25,659 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 12:48:25,901 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 12:48:26,034 [INFO] Driver [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-06-24 12:48:26,035 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-24 12:48:26,035 [INFO] Starting Firefox browser.
+2025-06-24 12:48:27,812 [INFO] Firefox browser started.
+2025-06-24 12:48:27,813 [INFO] Maximizing browser window.
+2025-06-24 12:48:27,817 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 12:48:29,812 [INFO] Page loaded.
+2025-06-24 12:48:29,812 [INFO] Checking if login is required.
+2025-06-24 12:48:29,814 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 12:48:29,815 [INFO] Login page detected, login required.
+2025-06-24 12:48:29,815 [INFO] Login is required. Starting login process.
+2025-06-24 12:48:29,815 [INFO] Starting MCA login process...
+2025-06-24 12:48:30,971 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-24 12:48:30,971 [INFO] Waiting for page DOM to be ready...
+2025-06-24 12:48:30,982 [INFO] Page DOM is ready.
+2025-06-24 12:48:30,983 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-24 12:48:30,983 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-06-24 12:48:30,983 [INFO] Attempting to fill login details...
+2025-06-24 12:48:30,983 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-06-24 12:48:30,983 [INFO] Retrieved password from config: *********** (length: 11)
+2025-06-24 12:48:30,983 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-06-24 12:48:32,260 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-06-24 12:48:32,264 [INFO] Verification: Element value after send_keys: '' (expected length: 22)
+2025-06-24 12:48:32,264 [WARNING] Text verification failed. Expected: 'shagun@registerkaro.in', Got: ''. Trying JavaScript approach.
+2025-06-24 12:48:32,274 [INFO] After JavaScript: Element value is now: 'shagun@registerkaro.in'
+2025-06-24 12:48:32,274 [INFO] Entered Login ID.
+2025-06-24 12:48:32,274 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 11
+2025-06-24 12:48:33,545 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 11)
+2025-06-24 12:48:33,548 [INFO] Verification: Element value after send_keys: 'Plushie0w0!' (expected length: 11)
+2025-06-24 12:48:33,548 [INFO] Entered Password.
+2025-06-24 12:48:33,548 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-06-24 12:48:33,548 [INFO] CAPTCHA attempt 1 of 3
+2025-06-24 12:48:33,548 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-24 12:48:35,613 [INFO] CAPTCHA API returned: 1LJhGW
+2025-06-24 12:48:35,613 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-24 12:48:36,532 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-24 12:48:36,536 [INFO] Verification: Element value after send_keys: '1LJhGW' (expected length: 6)
+2025-06-24 12:48:37,370 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-24 12:48:37,370 [INFO] Waiting for page DOM to be ready...
+2025-06-24 12:48:37,373 [INFO] Page DOM is ready.
+2025-06-24 12:48:37,379 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-06-24 12:48:37,380 [INFO] CAPTCHA handling reported success or moved past.
+2025-06-24 12:48:37,380 [INFO] Waiting for page DOM to be ready...
+2025-06-24 12:48:37,383 [INFO] Page DOM is ready.
+2025-06-24 12:48:37,383 [INFO] Checking login success (URL only)...
+2025-06-24 12:48:48,064 [INFO] Current URL is: https://www.mca.gov.in/content/mca/global/en/application-history.html. Expected to contain: https://www.mca.gov.in/content/mca/global/en/application-history.html
+2025-06-24 12:48:48,064 [INFO] Login success confirmed by URL.
+2025-06-24 12:48:48,064 [INFO] MCA Login Successful!
+2025-06-24 12:48:48,064 [INFO] Script has finished its tasks.
+2025-06-24 12:48:48,064 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-06-24 12:48:48,066 [INFO] Not directly on SPICE form after login, navigating to https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html.
+2025-06-24 12:49:03,721 [INFO] Login and navigation to SPICE form successful.
+2025-06-24 12:49:03,723 [INFO] Browser initialization completed.
+2025-06-24 12:49:03,723 [INFO] Browser initialized successfully
+2025-06-24 12:49:03,723 [INFO] Starting Part A of the form
+2025-06-24 12:49:03,723 [INFO] [FORM] Waiting for page to load and okay button to be clickable
+2025-06-24 12:49:08,643 [INFO] [FORM] Successfully clicked the okay button in 4.92 seconds
+2025-06-24 12:49:08,644 [INFO] [FORM] Waiting for modal backdrop to disappear
+2025-06-24 12:49:18,500 [INFO] [FORM] Modal backdrop disappeared successfully
+2025-06-24 12:49:18,502 [INFO] Waiting for company type dropdown to be present and clickable
+2025-06-24 12:49:18,537 [INFO] Removed any remaining modal backdrop
+2025-06-24 12:49:19,551 [INFO] Selecting "New Company (Others)" from company type dropdown
+2025-06-24 12:49:19,805 [INFO] Successfully selected company type
+2025-06-24 12:49:20,810 [INFO] Waiting for company class dropdown to be present and clickable
+2025-06-24 12:49:20,833 [INFO] Removed any remaining modal backdrop
+2025-06-24 12:49:21,849 [INFO] Selecting "Private" from company class dropdown
+2025-06-24 12:49:22,091 [INFO] Successfully selected company class
+2025-06-24 12:49:23,093 [INFO] Waiting for company category dropdown to be present and clickable
+2025-06-24 12:49:23,114 [INFO] Removed any remaining modal backdrop
+2025-06-24 12:49:24,129 [INFO] Selecting "Company limited by shares" from company category dropdown
+2025-06-24 12:49:24,364 [INFO] Successfully selected company category
+2025-06-24 12:49:25,370 [INFO] Waiting for company sub-category dropdown to be present and clickable
+2025-06-24 12:49:25,391 [INFO] Removed any remaining modal backdrop
+2025-06-24 12:49:26,410 [INFO] Selecting "Non-government company" from company sub-category dropdown
+2025-06-24 12:49:26,639 [INFO] Successfully selected company sub-category
+2025-06-24 12:49:27,645 [INFO] Opening NIC code selection dialog.
+2025-06-24 12:49:29,409 [INFO] Starting NIC code selection for: 96908
+2025-06-24 12:49:29,409 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel-panel_1663114232_cop-modal_container_1602-panel-panel-guidetextbox___widget'), keys length: 5
+2025-06-24 12:49:30,258 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel-panel_1663114232_cop-modal_container_1602-panel-panel-guidetextbox___widget') (length: 5)
+2025-06-24 12:49:30,261 [INFO] Verification: Element value after send_keys: '96908' (expected length: 5)
+2025-06-24 12:49:31,789 [INFO] Selecting "100" in page size dropdown for NIC code 96908
+2025-06-24 12:49:32,554 [INFO] Clicking checkbox for NIC code 96908
+2025-06-24 12:49:33,814 [INFO] Clicking Add button after selecting all NIC codes
+2025-06-24 12:49:35,618 [INFO] Waiting for company name input field to be present
+2025-06-24 12:49:35,618 [INFO] Formatted company name: DIGITAL BHARAT SERVICES PRIVATE LIMITED
+2025-06-24 12:49:35,618 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel_copy-panel-panel-guidetextbox_1884163___widget'), keys length: 39
+2025-06-24 12:49:36,430 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel_copy-panel-panel-guidetextbox_1884163___widget') (length: 39)
+2025-06-24 12:49:36,432 [INFO] Verification: Element value after send_keys: 'DIGITAL BHARAT SERVICES PRIVATE LIMITED' (expected length: 39)
+2025-06-24 12:49:36,441 [INFO] Successfully entered company name
+2025-06-24 12:49:37,446 [INFO] Starting name auto-check process
+2025-06-24 12:49:41,499 [INFO] Auto-check completed (submit not clicked, as requested)
+2025-06-24 12:49:44,505 [INFO] [SCRAPE] Attempting to click tab: Error
+2025-06-24 12:49:52,026 [INFO] [SCRAPE] Clicked tab: Error
+2025-06-24 12:49:52,026 [INFO] [SCRAPE] Waiting for table 'errorTable' in tab: Error
+2025-06-24 12:49:52,127 [INFO] [SCRAPE] Scraped 5 rows from table 'errorTable' in tab: Error
+2025-06-24 12:49:52,127 [INFO] [SCRAPE] Attempting to click tab: Name Similarity
+2025-06-24 12:49:52,872 [INFO] [SCRAPE] Clicked tab: Name Similarity
+2025-06-24 12:49:52,873 [INFO] [SCRAPE] Waiting for table 'nameSimilarityAlertsTable' in tab: Name Similarity
+2025-06-24 12:49:53,126 [INFO] [SCRAPE] Scraped 14 rows from table 'nameSimilarityAlertsTable' in tab: Name Similarity
+2025-06-24 12:49:53,126 [INFO] [SCRAPE] Attempting to click tab: Trademark
+2025-06-24 12:49:53,901 [INFO] [SCRAPE] Clicked tab: Trademark
+2025-06-24 12:49:53,901 [INFO] [SCRAPE] Waiting for table 'guideContainer-rootPanel-panel_2017717670_cop-panel_672096424-panel_copy-panel1629804157135__' in tab: Trademark
+2025-06-24 12:50:02,591 [INFO] [SCRAPE] Scraped 353 rows from table 'guideContainer-rootPanel-panel_2017717670_cop-panel_672096424-panel_copy-panel1629804157135__' in tab: Trademark
+2025-06-24 12:50:02,593 [INFO] [SCRAPE] All tab data saved to scraped_results.json
+2025-06-24 12:59:28,970 [INFO] Browser closed

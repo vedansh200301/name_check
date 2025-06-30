@@ -1,0 +1,88 @@
+2025-06-24 11:01:15,966 [INFO] Started logging
+2025-06-24 11:01:15,966 [INFO] Starting automation script
+2025-06-24 11:01:15,966 [INFO] Loading configuration
+2025-06-24 11:01:15,966 [INFO] Loading configuration from config.json
+2025-06-24 11:01:15,966 [INFO] Configuration loaded successfully
+2025-06-24 11:01:15,966 [INFO] Initializing browser
+2025-06-24 11:01:15,966 [INFO] Starting browser initialization.
+2025-06-24 11:01:15,966 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 11:01:15,966 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 11:01:15,966 [INFO] Firefox profile setup completed.
+2025-06-24 11:01:15,966 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-24 11:01:15,966 [INFO] ====== WebDriver manager ======
+2025-06-24 11:01:16,095 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 11:01:16,500 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 11:01:16,618 [INFO] Driver [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-06-24 11:01:16,618 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-24 11:01:16,619 [INFO] Starting Firefox browser.
+2025-06-24 11:01:17,907 [INFO] Firefox browser started.
+2025-06-24 11:01:17,907 [INFO] Maximizing browser window.
+2025-06-24 11:01:17,916 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 11:01:22,219 [INFO] Page loaded.
+2025-06-24 11:01:22,219 [INFO] Checking if login is required.
+2025-06-24 11:01:22,221 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 11:01:22,221 [INFO] Already on the target page, login not required.
+2025-06-24 11:01:22,221 [INFO] No login required. Already on the target page or logged in.
+2025-06-24 11:01:22,221 [INFO] Browser initialization completed.
+2025-06-24 11:01:22,221 [INFO] Browser initialized successfully
+2025-06-24 11:01:22,221 [INFO] Starting Part A of the form
+2025-06-24 11:01:22,222 [INFO] [FORM] Waiting for page to load and okay button to be clickable
+2025-06-24 11:01:24,125 [INFO] [FORM] Successfully clicked the okay button in 1.90 seconds
+2025-06-24 11:01:24,126 [INFO] [FORM] Waiting for modal backdrop to disappear
+2025-06-24 11:01:26,651 [INFO] [FORM] Modal backdrop disappeared successfully
+2025-06-24 11:01:26,652 [INFO] Waiting for company type dropdown to be present and clickable
+2025-06-24 11:01:26,674 [INFO] Removed any remaining modal backdrop
+2025-06-24 11:01:27,705 [INFO] Selecting "New Company (Others)" from company type dropdown
+2025-06-24 11:01:27,996 [INFO] Successfully selected company type
+2025-06-24 11:01:29,001 [INFO] Waiting for company class dropdown to be present and clickable
+2025-06-24 11:01:29,025 [INFO] Removed any remaining modal backdrop
+2025-06-24 11:01:30,042 [INFO] Selecting "Private" from company class dropdown
+2025-06-24 11:01:30,281 [INFO] Successfully selected company class
+2025-06-24 11:01:31,286 [INFO] Waiting for company category dropdown to be present and clickable
+2025-06-24 11:01:31,309 [INFO] Removed any remaining modal backdrop
+2025-06-24 11:01:32,326 [INFO] Selecting "Company limited by shares" from company category dropdown
+2025-06-24 11:01:32,569 [INFO] Successfully selected company category
+2025-06-24 11:01:33,574 [INFO] Waiting for company sub-category dropdown to be present and clickable
+2025-06-24 11:01:33,598 [INFO] Removed any remaining modal backdrop
+2025-06-24 11:01:34,611 [INFO] Selecting "Non-government company" from company sub-category dropdown
+2025-06-24 11:01:34,830 [INFO] Successfully selected company sub-category
+2025-06-24 11:01:35,836 [INFO] Opening NIC code selection dialog.
+2025-06-24 11:01:37,612 [INFO] Starting NIC code selection for: 96908
+2025-06-24 11:01:37,614 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel-panel_1663114232_cop-modal_container_1602-panel-panel-guidetextbox___widget'), keys length: 5
+2025-06-24 11:01:38,468 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel-panel_1663114232_cop-modal_container_1602-panel-panel-guidetextbox___widget') (length: 5)
+2025-06-24 11:01:38,470 [INFO] Verification: Element value after send_keys: '96908' (expected length: 5)
+2025-06-24 11:01:40,001 [INFO] Selecting "100" in page size dropdown for NIC code 96908
+2025-06-24 11:01:40,781 [INFO] Clicking checkbox for NIC code 96908
+2025-06-24 11:01:42,039 [INFO] Clicking Add button after selecting all NIC codes
+2025-06-24 11:01:43,838 [INFO] Waiting for company name input field to be present
+2025-06-24 11:01:43,838 [INFO] Formatted company name: DIGITAL BHARAT SERVICES PRIVATE LIMITED
+2025-06-24 11:01:43,839 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel_copy-panel-panel-guidetextbox_1884163___widget'), keys length: 39
+2025-06-24 11:01:44,620 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel_copy-panel-panel-guidetextbox_1884163___widget') (length: 39)
+2025-06-24 11:01:44,623 [INFO] Verification: Element value after send_keys: 'DIGITAL BHARAT SERVICES PRIVATE LIMITED' (expected length: 39)
+2025-06-24 11:01:44,626 [INFO] Successfully entered company name
+2025-06-24 11:01:45,631 [INFO] Starting name auto-check process
+2025-06-24 11:01:49,718 [INFO] Auto-check completed (submit not clicked, as requested)
+2025-06-24 11:01:52,723 [INFO] [SCRAPE] Attempting to click tab: Error
+2025-06-24 11:02:00,195 [INFO] [SCRAPE] Clicked tab: Error
+2025-06-24 11:02:00,197 [INFO] [SCRAPE] Waiting for table 'errorTable' in tab: Error
+2025-06-24 11:02:00,295 [INFO] [SCRAPE] Scraped 5 rows from table 'errorTable' in tab: Error
+2025-06-24 11:02:00,295 [INFO] [SCRAPE] Attempting to click tab: Name Similarity
+2025-06-24 11:02:01,041 [INFO] [SCRAPE] Clicked tab: Name Similarity
+2025-06-24 11:02:01,042 [INFO] [SCRAPE] Waiting for table 'nameSimilarityAlertsTable' in tab: Name Similarity
+2025-06-24 11:02:01,300 [INFO] [SCRAPE] Scraped 14 rows from table 'nameSimilarityAlertsTable' in tab: Name Similarity
+2025-06-24 11:02:01,300 [INFO] [SCRAPE] Attempting to click tab: Trademark
+2025-06-24 11:02:02,072 [INFO] [SCRAPE] Clicked tab: Trademark
+2025-06-24 11:02:02,074 [INFO] [SCRAPE] Waiting for table 'trademarkAlertsTable' in tab: Trademark
+2025-06-24 11:02:17,387 [ERROR] Element ('id', 'trademarkAlertsTable') did not become present within 15s.
+2025-06-24 11:02:17,489 [ERROR] Saved error screenshot to: Error Screenshots/error_element_not_present_trademarkAlertsTable_20250624-110217.png
+2025-06-24 11:02:17,489 [WARNING] [SCRAPE] Table 'trademarkAlertsTable' not found in tab 'Trademark': Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-06-24 11:02:17,557 [ERROR] Saved error screenshot to: Error Screenshots/error_table_scrape_failed_Trademark_20250624-110217.png
+2025-06-24 11:02:17,557 [WARNING] [SCRAPE] Skipping Trademark tab due to previous error.
+2025-06-24 11:02:17,558 [INFO] [SCRAPE] All tab data saved to scraped_results.json
+2025-06-24 11:04:37,462 [INFO] Browser closed

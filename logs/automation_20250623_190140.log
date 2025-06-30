@@ -1,0 +1,104 @@
+2025-06-23 19:01:40,643 [INFO] Started logging
+2025-06-23 19:01:40,643 [INFO] Starting automation script
+2025-06-23 19:01:40,643 [INFO] Loading configuration
+2025-06-23 19:01:40,643 [INFO] Loading configuration from config.json
+2025-06-23 19:01:40,644 [INFO] Configuration loaded successfully
+2025-06-23 19:01:40,644 [INFO] Initializing browser
+2025-06-23 19:01:40,644 [INFO] Starting browser initialization.
+2025-06-23 19:01:40,644 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-23 19:01:40,644 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-23 19:01:40,644 [INFO] Firefox profile setup completed.
+2025-06-23 19:01:40,644 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-23 19:01:40,644 [INFO] ====== WebDriver manager ======
+2025-06-23 19:01:40,786 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-23 19:01:42,318 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-23 19:01:42,500 [INFO] There is no [mac64] geckodriver "v0.36.0" for browser firefox "139.0" in cache
+2025-06-23 19:01:42,511 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-23 19:01:42,650 [INFO] Getting latest mozilla release info for v0.36.0
+2025-06-23 19:01:43,021 [INFO] About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-macos-aarch64.tar.gz
+2025-06-23 19:01:45,218 [INFO] Driver downloading response is 200
+2025-06-23 19:01:46,461 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-23 19:01:46,662 [INFO] Driver has been saved in cache [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0]
+2025-06-23 19:01:46,663 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-23 19:01:46,663 [INFO] Starting Firefox browser.
+2025-06-23 19:01:49,035 [INFO] Firefox browser started.
+2025-06-23 19:01:49,035 [INFO] Maximizing browser window.
+2025-06-23 19:01:49,358 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-23 19:01:50,781 [INFO] Page loaded.
+2025-06-23 19:01:50,781 [INFO] Checking if login is required.
+2025-06-23 19:01:50,784 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-23 19:01:50,784 [INFO] Login page detected, login required.
+2025-06-23 19:01:50,784 [INFO] Login is required. Starting login process.
+2025-06-23 19:01:50,784 [INFO] Starting MCA login process...
+2025-06-23 19:01:51,239 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-23 19:01:54,246 [INFO] Current URL after initial load and 3s wait: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-23 19:01:54,247 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-06-23 19:01:54,247 [INFO] Attempting to close pop-up and verify absence (Attempt 1 of 3)...
+2025-06-23 19:01:54,256 [ERROR] Error clicking /html/body/div[2]/div/div[2]/div/div/div/div[2]/button on attempt 1: WebDriver.find_element() takes from 1 to 3 positional arguments but 55 were given
+2025-06-23 19:01:54,364 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_h_attempt_1_20250623-190154.png
+2025-06-23 19:01:54,365 [ERROR] An error occurred during pop-up close attempt 1: Message: Failed to click /html/body/div[2]/div/div[2]/div/div/div/div[2]/button after 3 retries.
+
+2025-06-23 19:01:54,459 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_1_20250623-190154.png
+2025-06-23 19:01:54,459 [INFO] Will retry closing pop-up due to error.
+2025-06-23 19:01:54,459 [INFO] Attempting to close pop-up and verify absence (Attempt 2 of 3)...
+2025-06-23 19:01:54,466 [ERROR] Error clicking /html/body/div[2]/div/div[2]/div/div/div/div[2]/button on attempt 1: WebDriver.find_element() takes from 1 to 3 positional arguments but 55 were given
+2025-06-23 19:01:54,557 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_h_attempt_1_20250623-190154.png
+2025-06-23 19:01:54,557 [ERROR] An error occurred during pop-up close attempt 2: Message: Failed to click /html/body/div[2]/div/div[2]/div/div/div/div[2]/button after 3 retries.
+
+2025-06-23 19:01:54,651 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_2_20250623-190154.png
+2025-06-23 19:01:54,651 [INFO] Will retry closing pop-up due to error.
+2025-06-23 19:01:54,651 [INFO] Attempting to close pop-up and verify absence (Attempt 3 of 3)...
+2025-06-23 19:01:54,653 [ERROR] Error clicking /html/body/div[2]/div/div[2]/div/div/div/div[2]/button on attempt 1: WebDriver.find_element() takes from 1 to 3 positional arguments but 55 were given
+2025-06-23 19:01:54,745 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_h_attempt_1_20250623-190154.png
+2025-06-23 19:01:54,745 [ERROR] An error occurred during pop-up close attempt 3: Message: Failed to click /html/body/div[2]/div/div[2]/div/div/div/div[2]/button after 3 retries.
+
+2025-06-23 19:01:54,840 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_3_20250623-190154.png
+2025-06-23 19:01:54,840 [ERROR] Max attempts reached due to errors, pop-up could not be closed reliably.
+2025-06-23 19:01:54,840 [WARNING] Could not reliably close initial pop-up. Proceeding with caution.
+2025-06-23 19:01:54,840 [INFO] Attempting to fill login details...
+2025-06-23 19:01:54,929 [INFO] Entered Login ID.
+2025-06-23 19:01:54,949 [INFO] Entered Password.
+2025-06-23 19:01:54,949 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-06-23 19:01:54,949 [INFO] CAPTCHA attempt 1 of 3
+2025-06-23 19:01:54,949 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-23 19:01:56,382 [ERROR] Network or API error during captcha verification: 503 Server Error: Service Unavailable for url: https://api.apitruecaptcha.org/one/gettext
+2025-06-23 19:01:56,480 [ERROR] Saved error screenshot to: Error Screenshots/error_captcha_api_network_error_20250623-190156.png
+2025-06-23 19:01:56,480 [WARNING] CAPTCHA API did not return text or failed to solve. Refreshing CAPTCHA on page.
+2025-06-23 19:01:59,230 [INFO] CAPTCHA attempt 2 of 3
+2025-06-23 19:01:59,231 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-23 19:02:00,344 [ERROR] Network or API error during captcha verification: 503 Server Error: Service Unavailable for url: https://api.apitruecaptcha.org/one/gettext
+2025-06-23 19:02:00,473 [ERROR] Saved error screenshot to: Error Screenshots/error_captcha_api_network_error_20250623-190200.png
+2025-06-23 19:02:00,473 [WARNING] CAPTCHA API did not return text or failed to solve. Refreshing CAPTCHA on page.
+2025-06-23 19:02:03,219 [INFO] CAPTCHA attempt 3 of 3
+2025-06-23 19:02:03,219 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-23 19:02:03,847 [ERROR] Network or API error during captcha verification: 503 Server Error: Service Unavailable for url: https://api.apitruecaptcha.org/one/gettext
+2025-06-23 19:02:03,978 [ERROR] Saved error screenshot to: Error Screenshots/error_captcha_api_network_error_20250623-190203.png
+2025-06-23 19:02:03,978 [WARNING] CAPTCHA API did not return text or failed to solve. Refreshing CAPTCHA on page.
+2025-06-23 19:02:04,505 [ERROR] Error clicking ('id', 'refresh-img') on attempt 1: Message: Element <img id="refresh-img" src="/content/dam/csr/icons/repeat.png"> is not clickable at point (1147,435) because another element <div id="loadingPage" class="guideServiceLoading"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:297:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:180:31
+
+2025-06-23 19:02:04,624 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_refresh-img_attempt_1_20250623-190204.png
+2025-06-23 19:02:04,624 [ERROR] General error in handle_captcha_on_page: Message: Failed to click ('id', 'refresh-img') after 3 retries.
+
+2025-06-23 19:02:04,712 [ERROR] Saved error screenshot to: Error Screenshots/error_captcha_handling_general_error_3_20250623-190204.png
+2025-06-23 19:02:05,717 [ERROR] Max CAPTCHA attempts reached without successful submission.
+2025-06-23 19:02:05,718 [ERROR] CAPTCHA handling failed during login.
+2025-06-23 19:02:07,723 [INFO] Checking login success (URL only)...
+2025-06-23 19:02:22,980 [ERROR] Login verification failed: Timed out waiting for URL to contain https://www.mca.gov.in/content/mca/global/en/application-history.html. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-23 19:02:23,110 [ERROR] Saved error screenshot to: Error Screenshots/error_login_url_timeout_20250623-190222.png
+2025-06-23 19:02:23,110 [ERROR] MCA Login Failed based on URL check after form submission.
+2025-06-23 19:02:23,111 [INFO] Current page URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-23 19:02:23,112 [INFO] Current page title: FO Login
+2025-06-23 19:02:23,112 [INFO] Script has finished its tasks.
+2025-06-23 19:02:23,112 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-06-23 19:02:23,112 [ERROR] Login failed.
+2025-06-23 19:02:23,112 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-06-23 19:02:23,515 [INFO] Browser closed due to initialization error.
+2025-06-23 19:02:23,515 [ERROR] Error during automation: Failed to login to the portal.

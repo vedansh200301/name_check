@@ -1,0 +1,125 @@
+2025-06-30 15:11:57,636 [INFO] Started logging
+2025-06-30 15:11:57,636 [INFO] Starting automation script
+2025-06-30 15:11:57,636 [INFO] Loading configuration
+2025-06-30 15:11:57,636 [INFO] Loading configuration from config.json
+2025-06-30 15:11:57,637 [INFO] Configuration loaded successfully
+2025-06-30 15:11:57,637 [INFO] Initializing browser
+2025-06-30 15:11:57,637 [INFO] Starting browser initialization.
+2025-06-30 15:11:57,637 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-30 15:11:57,637 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-30 15:11:57,637 [INFO] Firefox profile setup completed.
+2025-06-30 15:11:57,637 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-30 15:11:57,637 [INFO] ====== WebDriver manager ======
+2025-06-30 15:11:58,044 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-30 15:11:58,428 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-30 15:11:58,551 [INFO] Driver [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-06-30 15:11:58,551 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-30 15:11:58,552 [INFO] Starting Firefox browser.
+2025-06-30 15:12:00,120 [INFO] Firefox browser started.
+2025-06-30 15:12:00,120 [INFO] Maximizing browser window.
+2025-06-30 15:12:00,122 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-30 15:12:01,529 [INFO] Page loaded.
+2025-06-30 15:12:01,529 [INFO] Checking if login is required.
+2025-06-30 15:12:01,531 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-30 15:12:01,531 [INFO] Login page detected, login required.
+2025-06-30 15:12:01,531 [INFO] Login is required. Starting login process.
+2025-06-30 15:12:01,531 [INFO] Starting MCA login process...
+2025-06-30 15:12:08,466 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-30 15:12:08,466 [INFO] Waiting for page DOM to be ready...
+2025-06-30 15:12:08,473 [INFO] Page DOM is ready.
+2025-06-30 15:12:08,474 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-30 15:12:08,474 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-06-30 15:12:08,474 [INFO] Attempting to fill login details...
+2025-06-30 15:12:08,474 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-06-30 15:12:08,474 [INFO] Retrieved password from config: *************** (length: 15)
+2025-06-30 15:12:08,474 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-06-30 15:12:09,748 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-06-30 15:12:09,753 [INFO] Verification: Element value after send_keys: '' (expected length: 22)
+2025-06-30 15:12:09,753 [WARNING] Text verification failed. Expected: 'shagun@registerkaro.in', Got: ''. Trying JavaScript approach.
+2025-06-30 15:12:09,763 [INFO] After JavaScript: Element value is now: 'shagun@registerkaro.in'
+2025-06-30 15:12:09,763 [INFO] Entered Login ID.
+2025-06-30 15:12:09,763 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 15
+2025-06-30 15:12:11,006 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 15)
+2025-06-30 15:12:11,010 [INFO] Verification: Element value after send_keys: '' (expected length: 15)
+2025-06-30 15:12:11,010 [WARNING] Text verification failed. Expected: 'Adrakkichai@123', Got: ''. Trying JavaScript approach.
+2025-06-30 15:12:11,020 [INFO] After JavaScript: Element value is now: 'Adrakkichai@123'
+2025-06-30 15:12:11,021 [INFO] Entered Password.
+2025-06-30 15:12:11,021 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-06-30 15:12:11,021 [INFO] CAPTCHA attempt 1 of 3
+2025-06-30 15:12:11,021 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 15:12:12,352 [INFO] CAPTCHA API returned: Blanco
+2025-06-30 15:12:12,352 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 15:12:13,668 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-30 15:12:13,671 [INFO] Verification: Element value after send_keys: '' (expected length: 6)
+2025-06-30 15:12:13,671 [WARNING] Text verification failed. Expected: 'Blanco', Got: ''. Trying JavaScript approach.
+2025-06-30 15:12:13,680 [INFO] After JavaScript: Element value is now: 'Blanco'
+2025-06-30 15:12:14,932 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-30 15:12:14,933 [INFO] Waiting for page DOM to be ready...
+2025-06-30 15:12:14,939 [INFO] Page DOM is ready.
+2025-06-30 15:12:14,950 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-06-30 15:12:14,950 [INFO] CAPTCHA handling reported success or moved past.
+2025-06-30 15:12:14,950 [INFO] Waiting for page DOM to be ready...
+2025-06-30 15:12:14,952 [INFO] Page DOM is ready.
+2025-06-30 15:12:14,953 [INFO] Checking login success (URL only)...
+2025-06-30 15:12:24,135 [ERROR] Exception during URL check for login success: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.getCurrentUrl@chrome://remote/content/marionette/driver.sys.mjs:1100:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-06-30 15:12:24,138 [ERROR] Failed to save screenshot: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.takeScreenshot@chrome://remote/content/marionette/driver.sys.mjs:2749:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-06-30 15:12:24,138 [ERROR] MCA Login Failed based on URL check after form submission.
+2025-06-30 15:12:24,139 [ERROR] An unexpected error occurred in the login process: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.getCurrentUrl@chrome://remote/content/marionette/driver.sys.mjs:1100:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-06-30 15:12:24,142 [ERROR] Failed to save screenshot: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.takeScreenshot@chrome://remote/content/marionette/driver.sys.mjs:2749:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-06-30 15:12:24,142 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-06-30 15:12:24,142 [ERROR] Login failed.
+2025-06-30 15:12:24,142 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-06-30 15:12:24,298 [INFO] Browser closed due to initialization error.
+2025-06-30 15:12:24,299 [ERROR] Error during automation: Failed to login to the portal.

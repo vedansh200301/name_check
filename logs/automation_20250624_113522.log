@@ -1,0 +1,38 @@
+2025-06-24 11:35:22,826 [INFO] Started logging
+2025-06-24 11:35:22,826 [INFO] Starting automation script
+2025-06-24 11:35:22,826 [INFO] Loading configuration
+2025-06-24 11:35:22,826 [INFO] Loading configuration from config.json
+2025-06-24 11:35:22,826 [INFO] Configuration loaded successfully
+2025-06-24 11:35:22,826 [INFO] Initializing browser
+2025-06-24 11:35:22,826 [INFO] Starting browser initialization.
+2025-06-24 11:35:22,826 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 11:35:22,826 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 11:35:22,826 [INFO] Firefox profile setup completed.
+2025-06-24 11:35:22,826 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-24 11:35:22,826 [INFO] ====== WebDriver manager ======
+2025-06-24 11:35:23,534 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 11:35:23,905 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 11:35:24,019 [INFO] Driver [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-06-24 11:35:24,020 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-24 11:35:24,020 [INFO] Starting Firefox browser.
+2025-06-24 11:35:25,813 [INFO] Firefox browser started.
+2025-06-24 11:35:25,813 [INFO] Maximizing browser window.
+2025-06-24 11:35:25,815 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 11:35:47,967 [INFO] Page loaded.
+2025-06-24 11:35:47,968 [INFO] Checking if login is required.
+2025-06-24 11:35:47,975 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 11:35:47,975 [INFO] Already on the target page, login not required.
+2025-06-24 11:35:47,975 [INFO] No login required. Already on the target page or logged in.
+2025-06-24 11:35:47,975 [INFO] Browser initialization completed.
+2025-06-24 11:35:47,975 [INFO] Browser initialized successfully
+2025-06-24 11:35:47,975 [INFO] Starting Part A of the form
+2025-06-24 11:35:47,975 [INFO] [FORM] Waiting for page to load and okay button to be clickable
+2025-06-24 11:35:58,089 [INFO] [FORM] Successfully clicked the okay button in 10.11 seconds
+2025-06-24 11:35:58,090 [INFO] [FORM] Waiting for modal backdrop to disappear
+2025-06-24 11:36:13,143 [ERROR] [FORM] Error clicking okay button: Message: 
+
+2025-06-24 11:36:13,272 [ERROR] Saved error screenshot to: Error Screenshots/error_click_okay_button_failure_20250624-113613.png
+2025-06-24 11:36:13,272 [ERROR] Error during automation: Message: 
+
+2025-06-24 11:36:13,365 [ERROR] Saved error screenshot to: Error Screenshots/error_automation_script_failure_20250624-113613.png
+2025-06-24 11:38:19,109 [INFO] Browser closed
