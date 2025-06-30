@@ -10,6 +10,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     tar \
+    bzip2 \
     libdbus-glib-1-2 \
     libgtk-3-0 \
     libasound2 \
