@@ -1,0 +1,74 @@
+2025-06-24 11:38:22,837 [INFO] Started logging
+2025-06-24 11:38:22,837 [INFO] Starting automation script
+2025-06-24 11:38:22,837 [INFO] Loading configuration
+2025-06-24 11:38:22,837 [INFO] Loading configuration from config.json
+2025-06-24 11:38:22,838 [INFO] Configuration loaded successfully
+2025-06-24 11:38:22,838 [INFO] Initializing browser
+2025-06-24 11:38:22,838 [INFO] Starting browser initialization.
+2025-06-24 11:38:22,838 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 11:38:22,838 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 11:38:22,838 [INFO] Firefox profile setup completed.
+2025-06-24 11:38:22,838 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-24 11:38:22,838 [INFO] ====== WebDriver manager ======
+2025-06-24 11:38:23,255 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 11:38:24,217 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 11:38:24,333 [INFO] Driver [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-06-24 11:38:24,334 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-24 11:38:24,334 [INFO] Starting Firefox browser.
+2025-06-24 11:38:25,865 [INFO] Firefox browser started.
+2025-06-24 11:38:25,865 [INFO] Maximizing browser window.
+2025-06-24 11:38:25,867 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 11:38:29,415 [INFO] Page loaded.
+2025-06-24 11:38:29,415 [INFO] Checking if login is required.
+2025-06-24 11:38:29,418 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 11:38:29,418 [INFO] Login page detected, login required.
+2025-06-24 11:38:29,418 [INFO] Login is required. Starting login process.
+2025-06-24 11:38:29,418 [INFO] Starting MCA login process...
+2025-06-24 11:38:35,877 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-24 11:38:35,877 [INFO] Waiting for page DOM to be ready...
+2025-06-24 11:38:35,886 [INFO] Page DOM is ready.
+2025-06-24 11:38:35,889 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-24 11:38:35,889 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-06-24 11:38:35,889 [INFO] Attempting to fill login details...
+2025-06-24 11:38:35,889 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-06-24 11:38:35,889 [INFO] Retrieved password from config: *********** (length: 11)
+2025-06-24 11:38:35,889 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-06-24 11:38:37,142 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-06-24 11:38:37,146 [INFO] Verification: Element value after send_keys: '' (expected length: 22)
+2025-06-24 11:38:37,146 [WARNING] Text verification failed. Expected: 'shagun@registerkaro.in', Got: ''. Trying JavaScript approach.
+2025-06-24 11:38:37,156 [INFO] After JavaScript: Element value is now: 'shagun@registerkaro.in'
+2025-06-24 11:38:37,156 [INFO] Entered Login ID.
+2025-06-24 11:38:37,156 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 11
+2025-06-24 11:38:38,395 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 11)
+2025-06-24 11:38:38,400 [INFO] Verification: Element value after send_keys: '' (expected length: 11)
+2025-06-24 11:38:38,400 [WARNING] Text verification failed. Expected: 'Plushie0w0!', Got: ''. Trying JavaScript approach.
+2025-06-24 11:38:38,410 [INFO] After JavaScript: Element value is now: 'Plushie0w0!'
+2025-06-24 11:38:38,410 [INFO] Entered Password.
+2025-06-24 11:38:38,410 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-06-24 11:38:38,410 [INFO] CAPTCHA attempt 1 of 3
+2025-06-24 11:38:38,411 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-24 11:38:40,088 [INFO] CAPTCHA API returned: Blanco
+2025-06-24 11:38:40,088 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-24 11:38:41,340 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-24 11:38:41,344 [INFO] Verification: Element value after send_keys: '' (expected length: 6)
+2025-06-24 11:38:41,345 [WARNING] Text verification failed. Expected: 'Blanco', Got: ''. Trying JavaScript approach.
+2025-06-24 11:38:41,356 [INFO] After JavaScript: Element value is now: 'Blanco'
+2025-06-24 11:38:42,621 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-24 11:38:42,621 [INFO] Waiting for page DOM to be ready...
+2025-06-24 11:38:42,626 [INFO] Page DOM is ready.
+2025-06-24 11:38:42,637 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-06-24 11:38:42,637 [INFO] CAPTCHA handling reported success or moved past.
+2025-06-24 11:38:42,637 [INFO] Waiting for page DOM to be ready...
+2025-06-24 11:38:42,639 [INFO] Page DOM is ready.
+2025-06-24 11:38:42,639 [INFO] Checking login success (URL only)...
+2025-06-24 11:40:36,046 [ERROR] Login verification failed: Timed out waiting for URL to contain https://www.mca.gov.in/content/mca/global/en/application-history.html. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-24 11:40:36,215 [ERROR] Saved error screenshot to: Error Screenshots/error_login_url_timeout_20250624-114036.png
+2025-06-24 11:40:36,215 [ERROR] MCA Login Failed based on URL check after form submission.
+2025-06-24 11:40:36,218 [INFO] Current page URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-24 11:40:36,219 [INFO] Current page title: FO Login
+2025-06-24 11:40:36,219 [INFO] Script has finished its tasks.
+2025-06-24 11:40:36,219 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-06-24 11:40:36,219 [ERROR] Login failed.
+2025-06-24 11:40:36,219 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-06-24 11:40:36,577 [INFO] Browser closed due to initialization error.
+2025-06-24 11:40:36,577 [ERROR] Error during automation: Failed to login to the portal.

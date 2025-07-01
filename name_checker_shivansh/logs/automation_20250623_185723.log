@@ -1,0 +1,15 @@
+2025-06-23 18:57:23,243 [INFO] Started logging
+2025-06-23 18:57:23,243 [INFO] Starting automation script
+2025-06-23 18:57:23,243 [INFO] Loading configuration
+2025-06-23 18:57:23,243 [INFO] Loading configuration from config.json
+2025-06-23 18:57:23,243 [INFO] Configuration loaded successfully
+2025-06-23 18:57:23,243 [INFO] Initializing browser
+2025-06-23 18:57:23,243 [INFO] Starting browser initialization.
+2025-06-23 18:57:23,243 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-23 18:57:23,243 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-23 18:57:23,243 [INFO] Firefox profile setup completed.
+2025-06-23 18:57:23,243 [INFO] Starting Firefox browser.
+2025-06-23 18:57:23,243 [ERROR] Error during browser initialization: Message: Unable to obtain driver for firefox; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-06-23 18:57:23,243 [ERROR] Error during automation: Message: Unable to obtain driver for firefox; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+

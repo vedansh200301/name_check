@@ -1,0 +1,101 @@
+2025-06-24 10:33:36,290 [INFO] Started logging
+2025-06-24 10:33:36,290 [INFO] Starting automation script
+2025-06-24 10:33:36,290 [INFO] Loading configuration
+2025-06-24 10:33:36,290 [INFO] Loading configuration from config.json
+2025-06-24 10:33:36,290 [INFO] Configuration loaded successfully
+2025-06-24 10:33:36,290 [INFO] Initializing browser
+2025-06-24 10:33:36,290 [INFO] Starting browser initialization.
+2025-06-24 10:33:36,290 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 10:33:36,290 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 10:33:36,290 [INFO] Firefox profile setup completed.
+2025-06-24 10:33:36,290 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-24 10:33:36,290 [INFO] ====== WebDriver manager ======
+2025-06-24 10:33:36,871 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 10:33:37,334 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 10:33:38,489 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 10:33:38,799 [INFO] Getting latest mozilla release info for v0.36.0
+2025-06-24 10:33:41,749 [INFO] About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-macos-aarch64.tar.gz
+2025-06-24 10:33:45,274 [INFO] Driver downloading response is 200
+2025-06-24 10:33:59,866 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 10:34:00,284 [INFO] Driver has been saved in cache [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0]
+2025-06-24 10:34:00,285 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-24 10:34:00,285 [INFO] Starting Firefox browser.
+2025-06-24 10:34:02,172 [INFO] Firefox browser started.
+2025-06-24 10:34:02,173 [INFO] Maximizing browser window.
+2025-06-24 10:34:02,177 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 10:34:04,482 [INFO] Page loaded.
+2025-06-24 10:34:04,482 [INFO] Checking if login is required.
+2025-06-24 10:34:04,483 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 10:34:04,483 [INFO] Login page detected, login required.
+2025-06-24 10:34:04,483 [INFO] Login is required. Starting login process.
+2025-06-24 10:34:04,483 [INFO] Starting MCA login process...
+2025-06-24 10:34:05,470 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-24 10:34:05,470 [INFO] Waiting for page DOM to be ready...
+2025-06-24 10:34:05,477 [INFO] Page DOM is ready.
+2025-06-24 10:34:05,480 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-24 10:34:05,480 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-06-24 10:34:05,480 [INFO] Attempting to close pop-up and verify absence (Attempt 1 of 3)...
+2025-06-24 10:34:08,551 [ERROR] Element ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') did not become clickable within 3s.
+2025-06-24 10:34:08,687 [ERROR] Saved error screenshot to: Error Screenshots/error_element_not_clickable_/html/body/div[2]/div/div[2]/div/div/div/div[2]/button_20250624-103408.png
+2025-06-24 10:34:08,688 [ERROR] Error clicking ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') on attempt 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-06-24 10:34:08,785 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_/html/body/div[2]/div/div[2]/div/div/div/div[2]/button_attempt_1_20250624-103408.png
+2025-06-24 10:34:08,785 [ERROR] An error occurred during pop-up close attempt 1: Message: Failed to click ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') after 3 retries.
+
+2025-06-24 10:34:08,875 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_1_20250624-103408.png
+2025-06-24 10:34:08,875 [INFO] Will retry closing pop-up due to error.
+2025-06-24 10:34:08,875 [INFO] Attempting to close pop-up and verify absence (Attempt 2 of 3)...
+2025-06-24 10:34:11,939 [ERROR] Element ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') did not become clickable within 3s.
+2025-06-24 10:34:12,066 [ERROR] Saved error screenshot to: Error Screenshots/error_element_not_clickable_/html/body/div[2]/div/div[2]/div/div/div/div[2]/button_20250624-103411.png
+2025-06-24 10:34:12,067 [ERROR] Error clicking ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') on attempt 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-06-24 10:34:12,153 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_/html/body/div[2]/div/div[2]/div/div/div/div[2]/button_attempt_1_20250624-103412.png
+2025-06-24 10:34:12,153 [ERROR] An error occurred during pop-up close attempt 2: Message: Failed to click ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') after 3 retries.
+
+2025-06-24 10:34:12,243 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_2_20250624-103412.png
+2025-06-24 10:34:12,243 [INFO] Will retry closing pop-up due to error.
+2025-06-24 10:34:12,243 [INFO] Attempting to close pop-up and verify absence (Attempt 3 of 3)...
+2025-06-24 10:34:15,314 [ERROR] Element ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') did not become clickable within 3s.
+2025-06-24 10:34:15,438 [ERROR] Saved error screenshot to: Error Screenshots/error_element_not_clickable_/html/body/div[2]/div/div[2]/div/div/div/div[2]/button_20250624-103415.png
+2025-06-24 10:34:15,438 [ERROR] Error clicking ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') on attempt 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-06-24 10:34:15,524 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_/html/body/div[2]/div/div[2]/div/div/div/div[2]/button_attempt_1_20250624-103415.png
+2025-06-24 10:34:15,524 [ERROR] An error occurred during pop-up close attempt 3: Message: Failed to click ('xpath', '/html/body/div[2]/div/div[2]/div/div/div/div[2]/button') after 3 retries.
+
+2025-06-24 10:34:15,612 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_3_20250624-103415.png
+2025-06-24 10:34:15,612 [ERROR] Max attempts reached due to errors, pop-up could not be closed reliably.
+2025-06-24 10:34:15,612 [WARNING] Could not reliably close initial pop-up. Proceeding with caution.
+2025-06-24 10:34:15,612 [INFO] Attempting to fill login details...
+2025-06-24 10:34:30,935 [ERROR] Element ('id', ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget')) did not become clickable within 15s.
+2025-06-24 10:34:31,061 [ERROR] Saved error screenshot to: Error Screenshots/error_element_not_clickable_('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget')_20250624-103430.png
+2025-06-24 10:34:31,061 [ERROR] Error sending text to ('id', ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget')) on attempt 1: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-06-24 10:34:31,158 [ERROR] Saved error screenshot to: Error Screenshots/error_send_text_error_('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget')_attempt_1_20250624-103431.png
+2025-06-24 10:34:31,158 [ERROR] An unexpected error occurred in the login process: Message: Failed to send text to ('id', ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget')) after 3 retries.
+
+2025-06-24 10:34:31,285 [ERROR] Saved error screenshot to: Error Screenshots/error_unexpected_login_error_20250624-103431.png
+2025-06-24 10:34:31,285 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-06-24 10:34:31,285 [ERROR] Login failed.
+2025-06-24 10:34:31,285 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-06-24 10:34:31,461 [INFO] Browser closed due to initialization error.
+2025-06-24 10:34:31,461 [ERROR] Error during automation: Failed to login to the portal.

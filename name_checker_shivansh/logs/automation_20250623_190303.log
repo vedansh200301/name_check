@@ -1,0 +1,72 @@
+2025-06-23 19:03:03,264 [INFO] Started logging
+2025-06-23 19:03:03,264 [INFO] Starting automation script
+2025-06-23 19:03:03,264 [INFO] Loading configuration
+2025-06-23 19:03:03,264 [INFO] Loading configuration from config.json
+2025-06-23 19:03:03,264 [INFO] Configuration loaded successfully
+2025-06-23 19:03:03,264 [INFO] Initializing browser
+2025-06-23 19:03:03,264 [INFO] Starting browser initialization.
+2025-06-23 19:03:03,264 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-23 19:03:03,264 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-23 19:03:03,264 [INFO] Firefox profile setup completed.
+2025-06-23 19:03:03,264 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-23 19:03:03,264 [INFO] ====== WebDriver manager ======
+2025-06-23 19:03:03,397 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-23 19:03:05,051 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-23 19:03:05,209 [INFO] Driver [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-06-23 19:03:05,210 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-23 19:03:05,210 [INFO] Starting Firefox browser.
+2025-06-23 19:03:06,605 [INFO] Firefox browser started.
+2025-06-23 19:03:06,606 [INFO] Maximizing browser window.
+2025-06-23 19:03:06,608 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-23 19:03:08,265 [INFO] Page loaded.
+2025-06-23 19:03:08,266 [INFO] Checking if login is required.
+2025-06-23 19:03:08,267 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-23 19:03:08,267 [INFO] Login page detected, login required.
+2025-06-23 19:03:08,267 [INFO] Login is required. Starting login process.
+2025-06-23 19:03:08,267 [INFO] Starting MCA login process...
+2025-06-23 19:03:08,688 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-23 19:03:11,701 [INFO] Current URL after initial load and 3s wait: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-23 19:03:11,702 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-06-23 19:03:11,702 [INFO] Attempting to close pop-up and verify absence (Attempt 1 of 3)...
+2025-06-23 19:03:11,714 [ERROR] Error clicking /html/body/div[2]/div/div[2]/div/div/div/div[2]/button on attempt 1: WebDriver.find_element() takes from 1 to 3 positional arguments but 55 were given
+2025-06-23 19:03:11,835 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_h_attempt_1_20250623-190311.png
+2025-06-23 19:03:11,835 [ERROR] An error occurred during pop-up close attempt 1: Message: Failed to click /html/body/div[2]/div/div[2]/div/div/div/div[2]/button after 3 retries.
+
+2025-06-23 19:03:11,927 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_1_20250623-190311.png
+2025-06-23 19:03:11,928 [INFO] Will retry closing pop-up due to error.
+2025-06-23 19:03:11,928 [INFO] Attempting to close pop-up and verify absence (Attempt 2 of 3)...
+2025-06-23 19:03:11,929 [ERROR] Error clicking /html/body/div[2]/div/div[2]/div/div/div/div[2]/button on attempt 1: WebDriver.find_element() takes from 1 to 3 positional arguments but 55 were given
+2025-06-23 19:03:12,026 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_h_attempt_1_20250623-190311.png
+2025-06-23 19:03:12,027 [ERROR] An error occurred during pop-up close attempt 2: Message: Failed to click /html/body/div[2]/div/div[2]/div/div/div/div[2]/button after 3 retries.
+
+2025-06-23 19:03:12,127 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_2_20250623-190312.png
+2025-06-23 19:03:12,127 [INFO] Will retry closing pop-up due to error.
+2025-06-23 19:03:12,127 [INFO] Attempting to close pop-up and verify absence (Attempt 3 of 3)...
+2025-06-23 19:03:12,132 [ERROR] Error clicking /html/body/div[2]/div/div[2]/div/div/div/div[2]/button on attempt 1: WebDriver.find_element() takes from 1 to 3 positional arguments but 55 were given
+2025-06-23 19:03:12,217 [ERROR] Saved error screenshot to: Error Screenshots/error_click_error_h_attempt_1_20250623-190312.png
+2025-06-23 19:03:12,217 [ERROR] An error occurred during pop-up close attempt 3: Message: Failed to click /html/body/div[2]/div/div[2]/div/div/div/div[2]/button after 3 retries.
+
+2025-06-23 19:03:12,304 [ERROR] Saved error screenshot to: Error Screenshots/error_popup_close_error_3_20250623-190312.png
+2025-06-23 19:03:12,304 [ERROR] Max attempts reached due to errors, pop-up could not be closed reliably.
+2025-06-23 19:03:12,304 [WARNING] Could not reliably close initial pop-up. Proceeding with caution.
+2025-06-23 19:03:12,304 [INFO] Attempting to fill login details...
+2025-06-23 19:03:12,377 [INFO] Entered Login ID.
+2025-06-23 19:03:12,406 [INFO] Entered Password.
+2025-06-23 19:03:12,406 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-06-23 19:03:12,406 [INFO] CAPTCHA attempt 1 of 3
+2025-06-23 19:03:12,406 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-23 19:03:14,293 [INFO] CAPTCHA API returned: QAMkwO
+2025-06-23 19:03:15,125 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-23 19:03:18,648 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-06-23 19:03:18,649 [INFO] CAPTCHA handling reported success or moved past.
+2025-06-23 19:03:20,654 [INFO] Checking login success (URL only)...
+2025-06-23 19:03:20,656 [INFO] Current URL is: https://www.mca.gov.in/content/mca/global/en/application-history.html. Expected to contain: https://www.mca.gov.in/content/mca/global/en/application-history.html
+2025-06-23 19:03:20,656 [INFO] Login success confirmed by URL.
+2025-06-23 19:03:20,656 [INFO] MCA Login Successful!
+2025-06-23 19:03:20,656 [INFO] Script has finished its tasks.
+2025-06-23 19:03:20,656 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-06-23 19:03:20,657 [INFO] Not directly on SPICE form after login, navigating to https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html.
+2025-06-23 19:03:26,003 [ERROR] Failed to navigate to SPICE form after login and explicit attempt.
+2025-06-23 19:03:26,005 [ERROR] Error during browser initialization: Failed to navigate to SPICE form after login.
+2025-06-23 19:03:26,304 [INFO] Browser closed due to initialization error.
+2025-06-23 19:03:26,304 [ERROR] Error during automation: Failed to navigate to SPICE form after login.

@@ -1,0 +1,568 @@
+2025-06-30 15:02:33,359 [INFO] Started logging
+2025-06-30 15:02:33,361 [INFO] Loading configuration from config.json
+2025-06-30 15:02:33,362 [INFO] Configuration loaded successfully
+2025-07-01 13:00:18,483 [INFO] Started logging
+2025-07-01 13:00:18,485 [INFO] Loading configuration from config.json
+2025-07-01 13:00:18,486 [INFO] Configuration loaded successfully
+2025-07-01 13:01:20,696 [INFO] [API] Starting browser for company name: hola
+2025-07-01 13:01:20,696 [INFO] Starting browser initialization.
+2025-07-01 13:01:20,696 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-07-01 13:01:20,697 [WARNING] Firefox profile path not found: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation. Using a new temporary profile.
+2025-07-01 13:01:20,697 [INFO] Firefox profile setup completed.
+2025-07-01 13:01:20,697 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-07-01 13:01:20,697 [INFO] ====== WebDriver manager ======
+2025-07-01 13:01:21,057 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:01:22,122 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:01:22,347 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:01:22,600 [INFO] Getting latest mozilla release info for v0.36.0
+2025-07-01 13:01:23,125 [INFO] About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-macos-aarch64.tar.gz
+2025-07-01 13:01:25,558 [INFO] Driver downloading response is 200
+2025-07-01 13:01:26,230 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:01:26,459 [INFO] Driver has been saved in cache [/Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0]
+2025-07-01 13:01:26,461 [INFO] Geckodriver located at: /Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-07-01 13:01:26,461 [INFO] Starting Firefox browser.
+2025-07-01 13:01:29,507 [INFO] Firefox browser started.
+2025-07-01 13:01:29,508 [INFO] Maximizing browser window.
+2025-07-01 13:01:29,767 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:01:30,896 [INFO] Page loaded.
+2025-07-01 13:01:30,896 [INFO] Checking if login is required.
+2025-07-01 13:01:30,897 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:01:30,898 [INFO] Login page detected, login required.
+2025-07-01 13:01:30,899 [INFO] Login is required. Starting login process.
+2025-07-01 13:01:30,899 [INFO] Starting MCA login process...
+2025-07-01 13:01:31,824 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:01:31,824 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:01:31,841 [INFO] Page DOM is ready.
+2025-07-01 13:01:31,842 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:01:31,842 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-07-01 13:01:31,842 [INFO] Waiting for login page to be ready by checking for CAPTCHA image...
+2025-07-01 13:01:31,850 [INFO] Login page is ready. Proceeding to fill details.
+2025-07-01 13:01:31,851 [INFO] Attempting to fill login details...
+2025-07-01 13:01:31,851 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-07-01 13:01:31,851 [INFO] Retrieved password from config: *************** (length: 15)
+2025-07-01 13:01:31,851 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-07-01 13:01:33,183 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-07-01 13:01:33,192 [INFO] Verification: Element value after send_keys: 'shagun@registerkaro.in' (expected length: 22)
+2025-07-01 13:01:33,193 [INFO] Entered Login ID.
+2025-07-01 13:01:33,193 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 15
+2025-07-01 13:01:33,935 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 15)
+2025-07-01 13:01:33,941 [INFO] Verification: Element value after send_keys: 'Adrakkichai@123' (expected length: 15)
+2025-07-01 13:01:33,942 [INFO] Entered Password.
+2025-07-01 13:01:33,942 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-07-01 13:01:33,942 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:01:33,942 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:01:35,899 [INFO] CAPTCHA API returned: ZPBNoJ
+2025-07-01 13:01:35,899 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:01:36,667 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:01:36,672 [INFO] Verification: Element value after send_keys: 'ZPBNoJ' (expected length: 6)
+2025-07-01 13:01:37,600 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:01:37,600 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:01:37,603 [INFO] Page DOM is ready.
+2025-07-01 13:01:37,613 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-07-01 13:01:37,613 [INFO] CAPTCHA handling reported success or moved past.
+2025-07-01 13:01:37,613 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:01:37,615 [INFO] Page DOM is ready.
+2025-07-01 13:01:37,615 [INFO] Checking login success (URL only)...
+2025-07-01 13:01:52,851 [ERROR] Login verification failed: Timed out waiting for URL to contain https://www.mca.gov.in/content/mca/global/en/application-history.html. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:01:52,962 [ERROR] Saved error screenshot to: Error Screenshots/error_login_url_timeout_20250701-130152.png
+2025-07-01 13:01:52,962 [ERROR] MCA Login Failed based on URL check after form submission.
+2025-07-01 13:01:52,963 [INFO] Current page URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:01:52,964 [INFO] Current page title: FO Login
+2025-07-01 13:01:52,964 [INFO] Script has finished its tasks.
+2025-07-01 13:01:52,964 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-07-01 13:01:52,964 [ERROR] Login failed.
+2025-07-01 13:01:52,964 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-07-01 13:01:54,881 [INFO] Browser closed due to initialization error.
+2025-07-01 13:01:54,881 [ERROR] [API] Error during name check automation for 'hola': Failed to login to the portal.
+Traceback (most recent call last):
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/api.py", line 51, in check_name
+    driver = browser_setup.initialize_browser(config)
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/browser_setup.py", line 72, in initialize_browser
+    raise Exception('Failed to login to the portal.')
+Exception: Failed to login to the portal.
+2025-07-01 13:43:21,736 [INFO] [API] Starting browser for company name: hemlo
+2025-07-01 13:43:21,738 [INFO] Starting browser initialization.
+2025-07-01 13:43:21,739 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-07-01 13:43:21,744 [WARNING] Firefox profile path not found: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation. Using a new temporary profile.
+2025-07-01 13:43:21,744 [INFO] Firefox profile setup completed.
+2025-07-01 13:43:21,747 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-07-01 13:43:21,748 [INFO] ====== WebDriver manager ======
+2025-07-01 13:43:22,163 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:43:23,594 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:43:23,857 [INFO] Driver [/Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-07-01 13:43:23,857 [INFO] Geckodriver located at: /Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-07-01 13:43:23,858 [INFO] Starting Firefox browser.
+2025-07-01 13:43:26,921 [INFO] Firefox browser started.
+2025-07-01 13:43:26,922 [INFO] Maximizing browser window.
+2025-07-01 13:43:27,385 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:43:28,656 [INFO] Page loaded.
+2025-07-01 13:43:28,656 [INFO] Checking if login is required.
+2025-07-01 13:43:28,659 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:43:28,659 [INFO] Login page detected, login required.
+2025-07-01 13:43:28,659 [INFO] Login is required. Starting login process.
+2025-07-01 13:43:28,659 [INFO] Starting MCA login process...
+2025-07-01 13:43:29,151 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:43:29,151 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:43:29,158 [INFO] Page DOM is ready.
+2025-07-01 13:43:29,159 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:43:29,160 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-07-01 13:43:29,160 [INFO] Waiting for login page to be ready by checking for CAPTCHA image...
+2025-07-01 13:43:29,167 [INFO] Login page is ready. Proceeding to fill details.
+2025-07-01 13:43:29,168 [INFO] Attempting to fill login details...
+2025-07-01 13:43:29,168 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-07-01 13:43:29,168 [INFO] Retrieved password from config: *************** (length: 15)
+2025-07-01 13:43:29,168 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-07-01 13:43:30,554 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-07-01 13:43:30,569 [INFO] Verification: Element value after send_keys: 'shagun@registerkaro.in' (expected length: 22)
+2025-07-01 13:43:30,569 [INFO] Entered Login ID.
+2025-07-01 13:43:30,569 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 15
+2025-07-01 13:43:31,333 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 15)
+2025-07-01 13:43:31,340 [INFO] Verification: Element value after send_keys: 'Adrakkichai@123' (expected length: 15)
+2025-07-01 13:43:31,340 [INFO] Entered Password.
+2025-07-01 13:43:31,340 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-07-01 13:43:31,340 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:43:31,340 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:43:34,546 [INFO] CAPTCHA API returned: SZO4Bx
+2025-07-01 13:43:34,546 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:43:35,319 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:43:35,329 [INFO] Verification: Element value after send_keys: 'SZO4Bx' (expected length: 6)
+2025-07-01 13:43:36,221 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:43:36,222 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:43:36,229 [INFO] Page DOM is ready.
+2025-07-01 13:43:36,254 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:43:36,254 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:43:36,254 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:43:39,018 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:43:39,019 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:43:40,175 [INFO] CAPTCHA API returned: 44NvB
+2025-07-01 13:43:40,176 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 5
+2025-07-01 13:43:40,964 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 5)
+2025-07-01 13:43:40,974 [INFO] Verification: Element value after send_keys: '44NvB' (expected length: 5)
+2025-07-01 13:43:41,733 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:43:41,733 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:43:41,737 [INFO] Page DOM is ready.
+2025-07-01 13:43:41,758 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:43:41,758 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:43:41,759 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:43:44,514 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:43:44,514 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:43:46,143 [INFO] CAPTCHA API returned: OnefIZ
+2025-07-01 13:43:46,144 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:43:46,927 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:43:46,937 [INFO] Verification: Element value after send_keys: 'OnefIZ' (expected length: 6)
+2025-07-01 13:43:47,787 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:43:47,787 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:43:47,790 [INFO] Page DOM is ready.
+2025-07-01 13:43:47,808 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:43:47,808 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:43:47,808 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:43:50,556 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:43:50,557 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:43:52,021 [INFO] CAPTCHA API returned: EpIGDP
+2025-07-01 13:43:52,022 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:43:52,793 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:43:52,802 [INFO] Verification: Element value after send_keys: 'EpIGDP' (expected length: 6)
+2025-07-01 13:43:53,637 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:43:53,638 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:43:53,643 [INFO] Page DOM is ready.
+2025-07-01 13:43:53,665 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:43:53,665 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:43:53,665 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:43:56,447 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:43:56,452 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:43:58,109 [INFO] CAPTCHA API returned: KKAL6g
+2025-07-01 13:43:58,110 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:43:58,883 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:43:58,892 [INFO] Verification: Element value after send_keys: 'KKAL6g' (expected length: 6)
+2025-07-01 13:43:59,885 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:43:59,885 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:43:59,892 [INFO] Page DOM is ready.
+2025-07-01 13:43:59,920 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:43:59,921 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:43:59,921 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:44:02,832 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:44:02,832 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:44:04,465 [INFO] CAPTCHA API returned: Mzsyiz
+2025-07-01 13:44:04,467 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:44:05,248 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:44:05,257 [INFO] Verification: Element value after send_keys: 'Mzsyiz' (expected length: 6)
+2025-07-01 13:44:06,089 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:44:06,090 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:44:06,094 [INFO] Page DOM is ready.
+2025-07-01 13:44:06,125 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:44:06,125 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:44:06,125 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:44:08,936 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:44:08,937 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:44:10,345 [INFO] CAPTCHA API returned: cZ0Ypl
+2025-07-01 13:44:10,346 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:44:11,108 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:44:11,114 [INFO] Verification: Element value after send_keys: 'cZ0Ypl' (expected length: 6)
+2025-07-01 13:44:11,944 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:44:11,945 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:44:11,951 [INFO] Page DOM is ready.
+2025-07-01 13:44:11,974 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:44:11,974 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:44:11,974 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:44:14,722 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:44:14,723 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:44:16,222 [INFO] CAPTCHA API returned: DfD6G0
+2025-07-01 13:44:16,223 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:44:17,006 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:44:17,014 [INFO] Verification: Element value after send_keys: 'DfD6G0' (expected length: 6)
+2025-07-01 13:44:17,822 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:44:17,822 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:44:17,825 [INFO] Page DOM is ready.
+2025-07-01 13:44:17,837 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:44:17,837 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:44:17,837 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:44:20,570 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:44:20,570 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:44:21,972 [INFO] CAPTCHA API returned: 6XW1Ey
+2025-07-01 13:44:21,973 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:44:22,734 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:44:22,747 [INFO] Verification: Element value after send_keys: '6XW1Ey' (expected length: 6)
+2025-07-01 13:44:23,596 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:44:23,596 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:44:23,598 [INFO] Page DOM is ready.
+2025-07-01 13:44:23,614 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-07-01 13:44:23,614 [INFO] CAPTCHA handling reported success or moved past.
+2025-07-01 13:44:23,615 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:44:23,616 [INFO] Page DOM is ready.
+2025-07-01 13:44:23,616 [INFO] Checking login success (URL only)...
+2025-07-01 13:44:38,875 [ERROR] Login verification failed: Timed out waiting for URL to contain https://www.mca.gov.in/content/mca/global/en/application-history.html. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:44:39,050 [ERROR] Saved error screenshot to: Error Screenshots/error_login_url_timeout_20250701-134438.png
+2025-07-01 13:44:39,051 [ERROR] MCA Login Failed based on URL check after form submission.
+2025-07-01 13:44:39,052 [INFO] Current page URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:44:39,052 [INFO] Current page title: FO Login
+2025-07-01 13:44:39,052 [INFO] Script has finished its tasks.
+2025-07-01 13:44:39,053 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-07-01 13:44:39,053 [ERROR] Login failed.
+2025-07-01 13:44:39,053 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-07-01 13:44:39,984 [INFO] Browser closed due to initialization error.
+2025-07-01 13:44:39,984 [ERROR] [API] Error during name check automation for 'hemlo': Failed to login to the portal.
+Traceback (most recent call last):
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/api.py", line 51, in check_name
+    driver = browser_setup.initialize_browser(config)
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/browser_setup.py", line 72, in initialize_browser
+    logger.info("Browser closed due to initialization error.")
+Exception: Failed to login to the portal.
+2025-07-01 13:53:30,789 [INFO] [API] Starting browser for company name: hemlo
+2025-07-01 13:53:30,791 [INFO] Starting browser initialization.
+2025-07-01 13:53:30,791 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-07-01 13:53:30,792 [WARNING] Firefox profile path not found: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation. Using a new temporary profile.
+2025-07-01 13:53:30,792 [INFO] Firefox profile setup completed.
+2025-07-01 13:53:30,792 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-07-01 13:53:30,792 [INFO] ====== WebDriver manager ======
+2025-07-01 13:53:31,945 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:53:33,526 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:53:33,683 [INFO] Driver [/Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-07-01 13:53:33,684 [INFO] Geckodriver located at: /Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-07-01 13:53:33,684 [INFO] Starting Firefox browser.
+2025-07-01 13:53:36,738 [INFO] Firefox browser started.
+2025-07-01 13:53:36,739 [INFO] Maximizing browser window.
+2025-07-01 13:53:36,998 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:53:38,116 [INFO] Page loaded.
+2025-07-01 13:53:38,116 [INFO] Checking if login is required.
+2025-07-01 13:53:38,118 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:53:38,118 [INFO] Login page detected, login required.
+2025-07-01 13:53:38,118 [INFO] Login is required. Starting login process.
+2025-07-01 13:53:38,118 [INFO] Starting MCA login process...
+2025-07-01 13:53:38,607 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:53:38,607 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:53:38,615 [INFO] Page DOM is ready.
+2025-07-01 13:53:38,617 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:53:38,617 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-07-01 13:53:38,617 [INFO] Waiting for login page to be ready by checking for CAPTCHA image...
+2025-07-01 13:53:38,621 [INFO] Login page is ready. Proceeding to fill details.
+2025-07-01 13:53:38,621 [INFO] Attempting to fill login details...
+2025-07-01 13:53:38,621 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-07-01 13:53:38,621 [INFO] Retrieved password from config: *************** (length: 15)
+2025-07-01 13:53:38,621 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-07-01 13:53:39,959 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-07-01 13:53:39,964 [INFO] Verification: Element value after send_keys: 'shagun@registerkaro.in' (expected length: 22)
+2025-07-01 13:53:39,964 [INFO] Entered Login ID.
+2025-07-01 13:53:39,964 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 15
+2025-07-01 13:53:40,731 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 15)
+2025-07-01 13:53:40,739 [INFO] Verification: Element value after send_keys: 'Adrakkichai@123' (expected length: 15)
+2025-07-01 13:53:40,739 [INFO] Entered Password.
+2025-07-01 13:53:40,739 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-07-01 13:53:40,739 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:53:40,739 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:53:42,509 [INFO] CAPTCHA API returned: ALO4Tb
+2025-07-01 13:53:42,510 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:53:43,277 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:53:43,288 [INFO] Verification: Element value after send_keys: 'ALO4Tb' (expected length: 6)
+2025-07-01 13:53:44,172 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:53:44,172 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:53:44,210 [INFO] Page DOM is ready.
+2025-07-01 13:53:44,340 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:53:44,340 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:53:44,340 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:53:47,079 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:53:47,079 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:53:48,821 [INFO] CAPTCHA API returned: P1in09
+2025-07-01 13:53:48,822 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:53:49,601 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:53:49,611 [INFO] Verification: Element value after send_keys: 'P1in09' (expected length: 6)
+2025-07-01 13:53:50,593 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:53:50,593 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:53:50,599 [INFO] Page DOM is ready.
+2025-07-01 13:53:50,621 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:53:50,621 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:53:50,621 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:53:53,357 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:53:53,357 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:53:54,893 [INFO] CAPTCHA API returned: Mbr8t
+2025-07-01 13:53:54,895 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 5
+2025-07-01 13:53:55,689 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 5)
+2025-07-01 13:53:55,699 [INFO] Verification: Element value after send_keys: 'Mbr8t' (expected length: 5)
+2025-07-01 13:53:56,460 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:53:56,461 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:53:56,465 [INFO] Page DOM is ready.
+2025-07-01 13:53:56,488 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:53:56,488 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:53:56,488 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:53:59,230 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:53:59,231 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:54:00,839 [INFO] CAPTCHA API returned: nL3KMG
+2025-07-01 13:54:00,839 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:54:01,606 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:54:01,618 [INFO] Verification: Element value after send_keys: 'nL3KMG' (expected length: 6)
+2025-07-01 13:54:02,488 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:54:02,488 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:54:02,497 [INFO] Page DOM is ready.
+2025-07-01 13:54:02,520 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:54:02,520 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:54:02,520 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:54:05,278 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:54:05,279 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:54:06,734 [INFO] CAPTCHA API returned: kdnnve
+2025-07-01 13:54:06,734 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:54:07,521 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:54:07,531 [INFO] Verification: Element value after send_keys: 'kdnnve' (expected length: 6)
+2025-07-01 13:54:08,427 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:54:08,427 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:54:08,432 [INFO] Page DOM is ready.
+2025-07-01 13:54:08,457 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:54:08,457 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:54:08,457 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:54:11,205 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:54:11,206 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:54:12,578 [INFO] CAPTCHA API returned: Pybde
+2025-07-01 13:54:12,578 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 5
+2025-07-01 13:54:13,352 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 5)
+2025-07-01 13:54:13,363 [INFO] Verification: Element value after send_keys: 'Pybde' (expected length: 5)
+2025-07-01 13:54:14,203 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:54:14,203 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:54:14,206 [INFO] Page DOM is ready.
+2025-07-01 13:54:14,226 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:54:14,226 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:54:14,226 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:54:16,977 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:54:16,977 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:54:18,503 [INFO] CAPTCHA API returned: nTFQ4B
+2025-07-01 13:54:18,504 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:54:19,287 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:54:19,297 [INFO] Verification: Element value after send_keys: 'nTFQ4B' (expected length: 6)
+2025-07-01 13:54:20,187 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:54:20,188 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:54:20,194 [INFO] Page DOM is ready.
+2025-07-01 13:54:20,218 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-07-01 13:54:20,218 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-07-01 13:54:20,218 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-07-01 13:54:22,958 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:54:22,959 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:54:24,406 [INFO] CAPTCHA API returned: A46jSa
+2025-07-01 13:54:24,406 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:54:25,177 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:54:25,182 [INFO] Verification: Element value after send_keys: 'A46jSa' (expected length: 6)
+2025-07-01 13:54:26,058 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:54:26,059 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:54:26,063 [INFO] Page DOM is ready.
+2025-07-01 13:54:26,089 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-07-01 13:54:26,089 [INFO] CAPTCHA handling reported success or moved past.
+2025-07-01 13:54:26,089 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:54:26,098 [INFO] Page DOM is ready.
+2025-07-01 13:54:26,098 [INFO] Checking login success (URL only)...
+2025-07-01 13:54:41,357 [ERROR] Login verification failed: Timed out waiting for URL to contain https://www.mca.gov.in/content/mca/global/en/application-history.html. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:54:41,490 [ERROR] Saved error screenshot to: Error Screenshots/error_login_url_timeout_20250701-135441.png
+2025-07-01 13:54:41,490 [ERROR] MCA Login Failed based on URL check after form submission.
+2025-07-01 13:54:41,491 [INFO] Current page URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:54:41,492 [INFO] Current page title: FO Login
+2025-07-01 13:54:41,492 [INFO] Script has finished its tasks.
+2025-07-01 13:54:41,492 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-07-01 13:54:41,492 [ERROR] Login failed.
+2025-07-01 13:54:41,492 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-07-01 13:54:41,954 [INFO] Browser closed due to initialization error.
+2025-07-01 13:54:41,955 [ERROR] [API] Error during name check automation for 'hemlo': Failed to login to the portal.
+Traceback (most recent call last):
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/api.py", line 51, in check_name
+    driver = browser_setup.initialize_browser(config)
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/browser_setup.py", line 72, in initialize_browser
+    logger.info("Browser closed due to initialization error.")
+Exception: Failed to login to the portal.
+2025-07-01 13:55:34,787 [INFO] [API] Starting browser for company name: hemlo
+2025-07-01 13:55:34,787 [INFO] Starting browser initialization.
+2025-07-01 13:55:34,787 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-07-01 13:55:34,787 [WARNING] Firefox profile path not found: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation. Using a new temporary profile.
+2025-07-01 13:55:34,788 [INFO] Firefox profile setup completed.
+2025-07-01 13:55:34,788 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-07-01 13:55:34,788 [INFO] ====== WebDriver manager ======
+2025-07-01 13:55:35,537 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:55:35,930 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:55:36,090 [INFO] Driver [/Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-07-01 13:55:36,091 [INFO] Geckodriver located at: /Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-07-01 13:55:36,091 [INFO] Starting Firefox browser.
+2025-07-01 13:55:39,238 [INFO] Firefox browser started.
+2025-07-01 13:55:39,238 [INFO] Maximizing browser window.
+2025-07-01 13:55:39,724 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:55:40,951 [INFO] Page loaded.
+2025-07-01 13:55:40,952 [INFO] Checking if login is required.
+2025-07-01 13:55:40,953 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:55:40,954 [INFO] Login page detected, login required.
+2025-07-01 13:55:40,954 [INFO] Login is required. Starting login process.
+2025-07-01 13:55:40,954 [INFO] Starting MCA login process...
+2025-07-01 13:55:42,962 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:55:42,962 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:55:42,973 [INFO] Page DOM is ready.
+2025-07-01 13:55:42,977 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:55:42,977 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-07-01 13:55:42,977 [INFO] Waiting for login page to be ready by checking for CAPTCHA image...
+2025-07-01 13:55:42,983 [INFO] Login page is ready. Proceeding to fill details.
+2025-07-01 13:55:42,983 [INFO] Attempting to fill login details...
+2025-07-01 13:55:42,983 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-07-01 13:55:42,983 [INFO] Retrieved password from config: *************** (length: 15)
+2025-07-01 13:55:42,983 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-07-01 13:55:44,324 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-07-01 13:55:44,329 [INFO] Verification: Element value after send_keys: 'shagun@registerkaro.in' (expected length: 22)
+2025-07-01 13:55:44,330 [INFO] Entered Login ID.
+2025-07-01 13:55:44,330 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 15
+2025-07-01 13:55:45,202 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 15)
+2025-07-01 13:55:45,204 [ERROR] Error sending text to ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') on attempt 1: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.execute_@chrome://remote/content/marionette/driver.sys.mjs:996:15
+GeckoDriver.prototype.executeScript@chrome://remote/content/marionette/driver.sys.mjs:908:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-07-01 13:55:45,205 [ERROR] Failed to save screenshot: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.takeScreenshot@chrome://remote/content/marionette/driver.sys.mjs:2771:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-07-01 13:55:45,206 [ERROR] An unexpected error occurred in the login process: Message: Failed to send text to ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') after 3 retries.
+
+2025-07-01 13:55:45,207 [ERROR] Failed to save screenshot: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.takeScreenshot@chrome://remote/content/marionette/driver.sys.mjs:2771:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-07-01 13:55:45,207 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-07-01 13:55:45,207 [ERROR] Login failed.
+2025-07-01 13:55:45,207 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-07-01 13:55:45,710 [INFO] Browser closed due to initialization error.
+2025-07-01 13:55:45,710 [ERROR] [API] Error during name check automation for 'hemlo': Failed to login to the portal.
+Traceback (most recent call last):
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/api.py", line 51, in check_name
+    driver = browser_setup.initialize_browser(config)
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/browser_setup.py", line 72, in initialize_browser
+    logger.info("Browser closed due to initialization error.")
+Exception: Failed to login to the portal.
+2025-07-01 13:55:59,130 [INFO] [API] Starting browser for company name: hemlo
+2025-07-01 13:55:59,130 [INFO] Starting browser initialization.
+2025-07-01 13:55:59,131 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-07-01 13:55:59,131 [WARNING] Firefox profile path not found: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation. Using a new temporary profile.
+2025-07-01 13:55:59,131 [INFO] Firefox profile setup completed.
+2025-07-01 13:55:59,131 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-07-01 13:55:59,131 [INFO] ====== WebDriver manager ======
+2025-07-01 13:55:59,586 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:56:00,158 [INFO] Get LATEST geckodriver version for 140.0 firefox
+2025-07-01 13:56:00,302 [INFO] Driver [/Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-07-01 13:56:00,302 [INFO] Geckodriver located at: /Users/mipl/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-07-01 13:56:00,303 [INFO] Starting Firefox browser.
+2025-07-01 13:56:02,501 [INFO] Firefox browser started.
+2025-07-01 13:56:02,502 [INFO] Maximizing browser window.
+2025-07-01 13:56:02,991 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:56:04,314 [INFO] Page loaded.
+2025-07-01 13:56:04,314 [INFO] Checking if login is required.
+2025-07-01 13:56:04,316 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-07-01 13:56:04,316 [INFO] Login page detected, login required.
+2025-07-01 13:56:04,316 [INFO] Login is required. Starting login process.
+2025-07-01 13:56:04,316 [INFO] Starting MCA login process...
+2025-07-01 13:56:04,857 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:56:04,857 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:56:04,868 [INFO] Page DOM is ready.
+2025-07-01 13:56:04,869 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:56:04,869 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-07-01 13:56:04,869 [INFO] Waiting for login page to be ready by checking for CAPTCHA image...
+2025-07-01 13:56:04,873 [INFO] Login page is ready. Proceeding to fill details.
+2025-07-01 13:56:04,874 [INFO] Attempting to fill login details...
+2025-07-01 13:56:04,874 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-07-01 13:56:04,874 [INFO] Retrieved password from config: *************** (length: 15)
+2025-07-01 13:56:04,874 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-07-01 13:56:06,215 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-07-01 13:56:06,219 [INFO] Verification: Element value after send_keys: 'shagun@registerkaro.in' (expected length: 22)
+2025-07-01 13:56:06,219 [INFO] Entered Login ID.
+2025-07-01 13:56:06,219 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 15
+2025-07-01 13:56:06,976 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 15)
+2025-07-01 13:56:06,994 [INFO] Verification: Element value after send_keys: 'Adrakkichai@123' (expected length: 15)
+2025-07-01 13:56:06,995 [INFO] Entered Password.
+2025-07-01 13:56:06,996 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-07-01 13:56:06,998 [INFO] CAPTCHA attempt 1 of 3
+2025-07-01 13:56:06,998 [INFO] Attempting to solve CAPTCHA via API...
+2025-07-01 13:56:09,034 [INFO] CAPTCHA API returned: ouH7kH
+2025-07-01 13:56:09,036 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-07-01 13:56:10,092 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-07-01 13:56:10,106 [INFO] Verification: Element value after send_keys: 'ouH7kH' (expected length: 6)
+2025-07-01 13:56:11,189 [INFO] Clicked submit after entering CAPTCHA.
+2025-07-01 13:56:11,189 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:56:11,191 [INFO] Page DOM is ready.
+2025-07-01 13:56:11,201 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-07-01 13:56:11,201 [INFO] CAPTCHA handling reported success or moved past.
+2025-07-01 13:56:11,201 [INFO] Waiting for page DOM to be ready...
+2025-07-01 13:56:11,202 [INFO] Page DOM is ready.
+2025-07-01 13:56:11,203 [INFO] Checking login success (URL only)...
+2025-07-01 13:56:26,432 [ERROR] Login verification failed: Timed out waiting for URL to contain https://www.mca.gov.in/content/mca/global/en/application-history.html. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:56:26,606 [ERROR] Saved error screenshot to: Error Screenshots/error_login_url_timeout_20250701-135626.png
+2025-07-01 13:56:26,607 [ERROR] MCA Login Failed based on URL check after form submission.
+2025-07-01 13:56:26,610 [INFO] Current page URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-07-01 13:56:26,613 [INFO] Current page title: FO Login
+2025-07-01 13:56:26,614 [INFO] Script has finished its tasks.
+2025-07-01 13:56:26,614 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-07-01 13:56:26,614 [ERROR] Login failed.
+2025-07-01 13:56:26,614 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-07-01 13:56:27,363 [INFO] Browser closed due to initialization error.
+2025-07-01 13:56:27,364 [ERROR] [API] Error during name check automation for 'hemlo': Failed to login to the portal.
+Traceback (most recent call last):
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/api.py", line 51, in check_name
+    driver = browser_setup.initialize_browser(config)
+  File "/Users/mipl/Desktop/naam_check/name_checker_shivansh/browser_setup.py", line 72, in initialize_browser
+    logger.info("Browser closed due to initialization error.")
+Exception: Failed to login to the portal.

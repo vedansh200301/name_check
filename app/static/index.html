@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Check Service</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-family: "SF Mono", "Fira Code", "Source Code Pro", monospace;
+            font-size: 14px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+        .btn-container {
+            text-align: center;
+        }
+        button {
+            background-color: #1a73e8;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #155ab6;
+        }
+        #results {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .result-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #eee;
+        }
+        .result-card h2 {
+            margin-top: 0;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .verdict-VALID { color: #1e8e3e; }
+        .verdict-NOT-VALID { color: #d95f02; }
+        .verdict-VALID::before, .verdict-NOT-VALID::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 10px;
+            display: inline-block;
+        }
+        .verdict-VALID::before { background-color: #34a853; }
+        .verdict-NOT-VALID::before { background-color: #d95f02; }
+
+        .section-title {
+            font-weight: 600;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .message-list, .name-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .message-list li {
+            background: #fff8e1;
+            color: #6d4c41;
+            padding: 12px 15px;
+            border-left: 4px solid #d95f02;
+            margin-bottom: 8px;
+            border-radius: 0 4px 4px 0;
+        }
+        .name-list li {
+            background: #e6f4ea;
+            border-left: 4px solid #34a853;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 0 4px 4px 0;
+        }
+        .name-list .name {
+            font-weight: 600;
+            color: #1b5e20;
+        }
+        .name-list .reason {
+            color: #388e3c;
+            display: block;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        .loader {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        .error-message {
+            color: #c62828;
+            background: #ffebee;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Name Check & Suggestion Service</h1>
+        <p>Enter a company name below to check for conflicts and get intelligent suggestions.</p>
+        <textarea id="json-input" placeholder="Enter company name..."></textarea>
+        <div class="btn-container">
+            <button id="check-btn">Check Name</button>
+        </div>
+
+        <div class="loader" id="loader">
+            <svg width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><style>.spinner_V8m1{transform-origin:center;animation:spinner_zKoa 2s linear infinite}.spinner_V8m1 circle{stroke-linecap:round;animation:spinner_YpZS 1.5s ease-in-out infinite}@keyframes spinner_zKoa{100%{transform:rotate(360deg)}}@keyframes spinner_YpZS{0%{stroke-dasharray:0 150;stroke-dashoffset:0}47.5%{stroke-dasharray:42 150;stroke-dashoffset:-16}95%,100%{stroke-dasharray:42 150;stroke-dashoffset:-59}}</style><g class="spinner_V8m1"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#1a73e8" stroke-width="2"></circle></g></svg>
+            <p>Analysing...</p>
+        </div>
+
+        <div class="error-message" id="error-message"></div>
+
+        <div id="results"></div>
+    </div>
+
+    <script>
+        document.getElementById('check-btn').addEventListener('click', async () => {
+            const jsonInput = document.getElementById('json-input');
+            const resultsDiv = document.getElementById('results');
+            const loader = document.getElementById('loader');
+            const errorDiv = document.getElementById('error-message');
+            
+            resultsDiv.innerHTML = '';
+            errorDiv.style.display = 'none';
+
+            const companyName = jsonInput.value;
+            if (!companyName.trim()) {
+                errorDiv.textContent = 'Please enter a company name.';
+                errorDiv.style.display = 'block';
+                return;
+            }
+
+            // This is the payload structure for the /check_name endpoint
+            const payload = {
+                names: [companyName],
+                check_type: "company" // Or get this from another UI element if needed
+            };
+
+            loader.style.display = 'block';
+
+            try {
+                const response = await fetch('/check_name', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const data = await response.json();
+
+                if (!response.ok || data.success === false) {
+                    // Use the error from the response if available, otherwise use a default
+                    const errorMessage = data.error || `HTTP error! status: ${response.status}`;
+                    throw new Error(errorMessage);
+                }
+
+                displayResults(data);
+
+            } catch (error) {
+                errorDiv.textContent = `An error occurred: ${error.message}`;
+                errorDiv.style.display = 'block';
+            } finally {
+                loader.style.display = 'none';
+            }
+        });
+
+        function displayResults(data) {
+            const resultsDiv = document.getElementById('results');
+            const verdictClass = `verdict-${data.verdict.replace(' ', '-')}`;
+            
+            let html = `
+                <div class="result-card">
+                    <h2 class="${verdictClass}">${data.verdict}</h2>
+            `;
+
+            if (data.blocking_messages && data.blocking_messages.length > 0) {
+                html += '<div class="section-title">Blocking Messages:</div><ul class="message-list">';
+                data.blocking_messages.forEach(msg => {
+                    html += `<li>${escapeHtml(msg)}</li>`;
+                });
+                html += '</ul>';
+            }
+
+            if (data.recommended_names && data.recommended_names.length > 0) {
+                html += '<div class="section-title">Recommended Names:</div><ul class="name-list">';
+                data.recommended_names.forEach(item => {
+                    html += `<li>
+                        <span class="name">${escapeHtml(item.name)}</span>
+                        <span class="reason">${escapeHtml(item.reason)}</span>
+                    </li>`;
+                });
+                html += '</ul>';
+            }
+            
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+
+        function escapeHtml(unsafe) {
+            return unsafe
+                 .replace(/&/g, "&amp;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/'/g, "&#039;");
+        }
+
+        // Remove the pre-filled example JSON
+        document.getElementById('json-input').value = "";
+    </script>
+</body>
+</html> 

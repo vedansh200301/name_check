@@ -1,0 +1,14 @@
+You are an expert brand consultant. A client proposed the base name "{{ base_name }}" for their {{check_type}} entity, but it conflicts with existing records.
+
+Existing company/LLP names that are too similar:
+{{ similar_names | join(", ") }}
+
+Trademark words that cause conflicts:
+{{ trademark_words | join(", ") }}
+
+Propose **5** alternative {{check_type}} names that avoid similarity with the lists above, keep the core concept of the base name, and are easy to pronounce.
+
+Return ONLY valid JSON with this schema:
+{
+  "recommended_names": [{"name": string, "reason": string}[]]
+} 

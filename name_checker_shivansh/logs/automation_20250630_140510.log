@@ -1,0 +1,215 @@
+2025-06-30 14:05:10,946 [INFO] Started logging
+2025-06-30 14:05:10,946 [INFO] Starting automation script
+2025-06-30 14:05:10,946 [INFO] Loading configuration
+2025-06-30 14:05:10,946 [INFO] Loading configuration from config.json
+2025-06-30 14:05:10,946 [INFO] Configuration loaded successfully
+2025-06-30 14:05:10,946 [INFO] Initializing browser
+2025-06-30 14:05:10,946 [INFO] Starting browser initialization.
+2025-06-30 14:05:10,946 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-30 14:05:10,947 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-30 14:05:10,947 [INFO] Firefox profile setup completed.
+2025-06-30 14:05:10,947 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-30 14:05:10,947 [INFO] ====== WebDriver manager ======
+2025-06-30 14:05:11,472 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-30 14:05:12,013 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-30 14:05:12,344 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-30 14:05:12,754 [INFO] Getting latest mozilla release info for v0.36.0
+2025-06-30 14:05:13,411 [INFO] About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-macos-aarch64.tar.gz
+2025-06-30 14:05:15,570 [INFO] Driver downloading response is 200
+2025-06-30 14:05:22,801 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-30 14:05:22,983 [INFO] Driver has been saved in cache [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0]
+2025-06-30 14:05:22,984 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-30 14:05:22,984 [INFO] Starting Firefox browser.
+2025-06-30 14:05:25,004 [INFO] Firefox browser started.
+2025-06-30 14:05:25,005 [INFO] Maximizing browser window.
+2025-06-30 14:05:25,007 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-30 14:05:26,649 [INFO] Page loaded.
+2025-06-30 14:05:26,649 [INFO] Checking if login is required.
+2025-06-30 14:05:26,650 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-30 14:05:26,650 [INFO] Login page detected, login required.
+2025-06-30 14:05:26,650 [INFO] Login is required. Starting login process.
+2025-06-30 14:05:26,650 [INFO] Starting MCA login process...
+2025-06-30 14:05:40,554 [INFO] Navigated to login page: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-30 14:05:40,555 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:05:40,562 [INFO] Page DOM is ready.
+2025-06-30 14:05:40,566 [INFO] Current URL after initial load: https://www.mca.gov.in/content/mca/global/en/foportal/fologin.html
+2025-06-30 14:05:40,567 [INFO] Not on MCA homepage. Proceeding with normal login flow.
+2025-06-30 14:05:40,567 [INFO] Attempting to fill login details...
+2025-06-30 14:05:40,567 [INFO] Retrieved username from config: 'shagun@registerkaro.in' (length: 22)
+2025-06-30 14:05:40,567 [INFO] Retrieved password from config: *********** (length: 11)
+2025-06-30 14:05:40,567 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget'), keys length: 22
+2025-06-30 14:05:41,926 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidetextbox___widget') (length: 22)
+2025-06-30 14:05:41,928 [INFO] Verification: Element value after send_keys: 'shagun@registerkaro.in' (expected length: 22)
+2025-06-30 14:05:41,928 [INFO] Entered Login ID.
+2025-06-30 14:05:41,928 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget'), keys length: 11
+2025-06-30 14:05:42,688 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_1846244155-guidepasswordbox___widget') (length: 11)
+2025-06-30 14:05:42,693 [INFO] Verification: Element value after send_keys: 'Plushie0w0!' (expected length: 11)
+2025-06-30 14:05:42,693 [INFO] Entered Password.
+2025-06-30 14:05:42,693 [INFO] Handling CAPTCHA on page using selenium_utils...
+2025-06-30 14:05:42,693 [INFO] CAPTCHA attempt 1 of 3
+2025-06-30 14:05:42,693 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 14:05:44,095 [INFO] CAPTCHA API returned: 2CETVU
+2025-06-30 14:05:44,096 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 14:05:44,871 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-30 14:05:44,875 [INFO] Verification: Element value after send_keys: '2CETVU' (expected length: 6)
+2025-06-30 14:05:47,549 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-30 14:05:47,549 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:05:47,553 [INFO] Page DOM is ready.
+2025-06-30 14:05:47,572 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-06-30 14:05:47,572 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-06-30 14:05:47,573 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-06-30 14:05:50,319 [INFO] CAPTCHA attempt 1 of 3
+2025-06-30 14:05:50,320 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 14:05:51,653 [INFO] CAPTCHA API returned: 416873
+2025-06-30 14:05:51,654 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 14:05:52,398 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-30 14:05:52,403 [INFO] Verification: Element value after send_keys: '416873' (expected length: 6)
+2025-06-30 14:05:53,256 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-30 14:05:53,257 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:05:53,263 [INFO] Page DOM is ready.
+2025-06-30 14:05:53,282 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-06-30 14:05:53,282 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-06-30 14:05:53,282 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-06-30 14:05:56,065 [INFO] CAPTCHA attempt 1 of 3
+2025-06-30 14:05:56,066 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 14:05:57,429 [INFO] CAPTCHA API returned: 416873
+2025-06-30 14:05:57,429 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 14:05:57,453 [ERROR] Error sending text to ('id', 'customCaptchaInput') on attempt 1: Message: Element <input id="customCaptchaInput" class="col-6" name="text" type="text"> is not clickable at point (1520,661) because another element <div id="loadingPage" class="guideServiceLoading"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:297:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:180:31
+
+2025-06-30 14:05:57,586 [ERROR] Saved error screenshot to: Error Screenshots/error_send_text_error_customCaptchaInput_attempt_1_20250630-140557.png
+2025-06-30 14:05:57,586 [ERROR] General error in solving and entering captcha: Message: Failed to send text to ('id', 'customCaptchaInput') after 3 retries.
+
+2025-06-30 14:05:57,691 [ERROR] Saved error screenshot to: Error Screenshots/error_captcha_solve_general_error_20250630-140557.png
+2025-06-30 14:05:57,692 [WARNING] CAPTCHA API did not return text or failed to solve. Refreshing CAPTCHA on page.
+2025-06-30 14:06:00,435 [INFO] CAPTCHA attempt 2 of 3
+2025-06-30 14:06:00,435 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 14:06:01,845 [INFO] CAPTCHA API returned: 7eqein
+2025-06-30 14:06:01,846 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 14:06:02,620 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-30 14:06:02,624 [INFO] Verification: Element value after send_keys: '7eqein' (expected length: 6)
+2025-06-30 14:06:09,076 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-30 14:06:09,076 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:06:09,084 [INFO] Page DOM is ready.
+2025-06-30 14:06:09,109 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-06-30 14:06:09,109 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-06-30 14:06:09,109 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-06-30 14:06:11,862 [INFO] CAPTCHA attempt 2 of 3
+2025-06-30 14:06:11,863 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 14:06:13,276 [INFO] CAPTCHA API returned: Oafan6
+2025-06-30 14:06:13,277 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 14:06:14,028 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-30 14:06:14,031 [INFO] Verification: Element value after send_keys: 'Oafan6' (expected length: 6)
+2025-06-30 14:06:14,891 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-30 14:06:14,891 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:06:14,897 [INFO] Page DOM is ready.
+2025-06-30 14:06:14,916 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-06-30 14:06:14,916 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-06-30 14:06:14,916 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-06-30 14:06:17,658 [INFO] CAPTCHA attempt 2 of 3
+2025-06-30 14:06:17,659 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 14:06:19,011 [INFO] CAPTCHA API returned: 089jx0
+2025-06-30 14:06:19,011 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 14:06:19,769 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-30 14:06:19,774 [INFO] Verification: Element value after send_keys: '089jx0' (expected length: 6)
+2025-06-30 14:06:20,631 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-30 14:06:20,632 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:06:20,637 [INFO] Page DOM is ready.
+2025-06-30 14:06:20,656 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-06-30 14:06:20,656 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-06-30 14:06:20,656 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-06-30 14:06:23,388 [INFO] CAPTCHA attempt 2 of 3
+2025-06-30 14:06:23,389 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 14:06:24,771 [INFO] CAPTCHA API returned: 94EO7p
+2025-06-30 14:06:24,771 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 14:06:25,545 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-30 14:06:25,549 [INFO] Verification: Element value after send_keys: '94EO7p' (expected length: 6)
+2025-06-30 14:06:26,936 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-30 14:06:26,936 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:06:26,938 [INFO] Page DOM is ready.
+2025-06-30 14:06:26,946 [WARNING] CAPTCHA incorrect. Refreshing...
+2025-06-30 14:06:26,946 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: None/Empty
+2025-06-30 14:06:26,946 [ERROR] Empty or None keys passed to _send_text for locator: ('id', 'customCaptchaInput')
+2025-06-30 14:06:29,686 [INFO] CAPTCHA attempt 2 of 3
+2025-06-30 14:06:29,687 [INFO] Attempting to solve CAPTCHA via API...
+2025-06-30 14:06:31,045 [INFO] CAPTCHA API returned: 288kJH
+2025-06-30 14:06:31,045 [INFO] _send_text called with locator: ('id', 'customCaptchaInput'), keys length: 6
+2025-06-30 14:06:31,794 [INFO] Sent keys to element ('id', 'customCaptchaInput') (length: 6)
+2025-06-30 14:06:31,798 [INFO] Verification: Element value after send_keys: '288kJH' (expected length: 6)
+2025-06-30 14:06:32,654 [INFO] Clicked submit after entering CAPTCHA.
+2025-06-30 14:06:32,654 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:06:32,660 [INFO] Page DOM is ready.
+2025-06-30 14:06:32,671 [INFO] CAPTCHA submitted, no immediate 'incorrect captcha' error found.
+2025-06-30 14:06:32,671 [INFO] CAPTCHA handling reported success or moved past.
+2025-06-30 14:06:32,671 [INFO] Waiting for page DOM to be ready...
+2025-06-30 14:06:32,673 [INFO] Page DOM is ready.
+2025-06-30 14:06:32,673 [INFO] Checking login success (URL only)...
+2025-06-30 14:06:37,248 [ERROR] Exception during URL check for login success: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.getCurrentUrl@chrome://remote/content/marionette/driver.sys.mjs:1100:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-06-30 14:06:37,251 [ERROR] Failed to save screenshot: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.takeScreenshot@chrome://remote/content/marionette/driver.sys.mjs:2749:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-06-30 14:06:37,251 [ERROR] MCA Login Failed based on URL check after form submission.
+2025-06-30 14:06:37,253 [ERROR] An unexpected error occurred in the login process: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.getCurrentUrl@chrome://remote/content/marionette/driver.sys.mjs:1100:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-06-30 14:06:37,254 [ERROR] Failed to save screenshot: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.takeScreenshot@chrome://remote/content/marionette/driver.sys.mjs:2749:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2025-06-30 14:06:37,254 [INFO] Browser will remain open as per request (if not explicitly closed by calling function).
+2025-06-30 14:06:37,254 [ERROR] Login failed.
+2025-06-30 14:06:37,254 [ERROR] Error during browser initialization: Failed to login to the portal.
+2025-06-30 14:06:37,419 [INFO] Browser closed due to initialization error.
+2025-06-30 14:06:37,419 [ERROR] Error during automation: Failed to login to the portal.

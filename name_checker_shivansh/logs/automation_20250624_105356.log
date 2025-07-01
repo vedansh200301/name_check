@@ -1,0 +1,75 @@
+2025-06-24 10:53:56,528 [INFO] Started logging
+2025-06-24 10:53:56,528 [INFO] Starting automation script
+2025-06-24 10:53:56,528 [INFO] Loading configuration
+2025-06-24 10:53:56,529 [INFO] Loading configuration from config.json
+2025-06-24 10:53:56,529 [INFO] Configuration loaded successfully
+2025-06-24 10:53:56,529 [INFO] Initializing browser
+2025-06-24 10:53:56,529 [INFO] Starting browser initialization.
+2025-06-24 10:53:56,529 [INFO] Setting up Firefox profile from: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 10:53:56,529 [INFO] Using existing Firefox profile: /Users/shivanshsingh/Library/Caches/Firefox/Profiles/c6cw4mw7.Automation
+2025-06-24 10:53:56,529 [INFO] Firefox profile setup completed.
+2025-06-24 10:53:56,529 [INFO] Attempting to automatically download/locate Geckodriver...
+2025-06-24 10:53:56,529 [INFO] ====== WebDriver manager ======
+2025-06-24 10:53:56,667 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 10:53:57,583 [INFO] Get LATEST geckodriver version for 139.0 firefox
+2025-06-24 10:53:58,803 [INFO] Driver [/Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver] found in cache
+2025-06-24 10:53:58,803 [INFO] Geckodriver located at: /Users/shivanshsingh/.wdm/drivers/geckodriver/mac64/v0.36.0/geckodriver
+2025-06-24 10:53:58,803 [INFO] Starting Firefox browser.
+2025-06-24 10:54:00,137 [INFO] Firefox browser started.
+2025-06-24 10:54:00,137 [INFO] Maximizing browser window.
+2025-06-24 10:54:00,140 [INFO] Navigating to URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 10:54:06,974 [INFO] Page loaded.
+2025-06-24 10:54:06,976 [INFO] Checking if login is required.
+2025-06-24 10:54:06,984 [INFO] Checking if login is required. Current URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html, Target URL: https://www.mca.gov.in/content/mca/global/en/mca/e-filing/incorporation-change-services/spice.html
+2025-06-24 10:54:06,984 [INFO] Already on the target page, login not required.
+2025-06-24 10:54:06,984 [INFO] No login required. Already on the target page or logged in.
+2025-06-24 10:54:06,984 [INFO] Browser initialization completed.
+2025-06-24 10:54:06,984 [INFO] Browser initialized successfully
+2025-06-24 10:54:06,985 [INFO] Starting Part A of the form
+2025-06-24 10:54:06,985 [INFO] [FORM] Waiting for page to load and okay button to be clickable
+2025-06-24 10:54:08,312 [INFO] [FORM] Successfully clicked the okay button in 1.33 seconds
+2025-06-24 10:54:08,312 [INFO] [FORM] Waiting for modal backdrop to disappear
+2025-06-24 10:54:10,838 [INFO] [FORM] Modal backdrop disappeared successfully
+2025-06-24 10:54:10,839 [INFO] Waiting for company type dropdown to be present and clickable
+2025-06-24 10:54:10,862 [INFO] Removed any remaining modal backdrop
+2025-06-24 10:54:11,889 [INFO] Selecting "New Company (Others)" from company type dropdown
+2025-06-24 10:54:12,173 [INFO] Successfully selected company type
+2025-06-24 10:54:13,179 [INFO] Waiting for company class dropdown to be present and clickable
+2025-06-24 10:54:13,193 [INFO] Removed any remaining modal backdrop
+2025-06-24 10:54:14,209 [INFO] Selecting "Private" from company class dropdown
+2025-06-24 10:54:14,452 [INFO] Successfully selected company class
+2025-06-24 10:54:15,458 [INFO] Waiting for company category dropdown to be present and clickable
+2025-06-24 10:54:15,479 [INFO] Removed any remaining modal backdrop
+2025-06-24 10:54:16,496 [INFO] Selecting "Company limited by shares" from company category dropdown
+2025-06-24 10:54:16,732 [INFO] Successfully selected company category
+2025-06-24 10:54:17,736 [INFO] Waiting for company sub-category dropdown to be present and clickable
+2025-06-24 10:54:17,762 [INFO] Removed any remaining modal backdrop
+2025-06-24 10:54:18,781 [INFO] Selecting "Non-government company" from company sub-category dropdown
+2025-06-24 10:54:19,014 [INFO] Successfully selected company sub-category
+2025-06-24 10:54:20,017 [INFO] Opening NIC code selection dialog.
+2025-06-24 10:54:21,789 [INFO] Starting NIC code selection for: 96908
+2025-06-24 10:54:21,790 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel-panel_1663114232_cop-modal_container_1602-panel-panel-guidetextbox___widget'), keys length: 5
+2025-06-24 10:54:22,619 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel-panel_1663114232_cop-modal_container_1602-panel-panel-guidetextbox___widget') (length: 5)
+2025-06-24 10:54:22,622 [INFO] Verification: Element value after send_keys: '96908' (expected length: 5)
+2025-06-24 10:54:24,156 [INFO] Selecting "100" in page size dropdown for NIC code 96908
+2025-06-24 10:54:24,924 [INFO] Clicking checkbox for NIC code 96908
+2025-06-24 10:54:26,186 [INFO] Clicking Add button after selecting all NIC codes
+2025-06-24 10:54:27,999 [INFO] Waiting for company name input field to be present
+2025-06-24 10:54:27,999 [INFO] Formatted company name: DIGITAL BHARAT SERVICES PRIVATE LIMITED
+2025-06-24 10:54:27,999 [INFO] _send_text called with locator: ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel_copy-panel-panel-guidetextbox_1884163___widget'), keys length: 39
+2025-06-24 10:54:28,813 [INFO] Sent keys to element ('id', 'guideContainer-rootPanel-panel_2017717670_cop-panel_copy-panel-panel-guidetextbox_1884163___widget') (length: 39)
+2025-06-24 10:54:28,816 [INFO] Verification: Element value after send_keys: 'DIGITAL BHARAT SERVICES PRIVATE LIMITED' (expected length: 39)
+2025-06-24 10:54:28,820 [INFO] Successfully entered company name
+2025-06-24 10:54:29,825 [INFO] Starting name auto-check process
+2025-06-24 10:54:33,637 [INFO] Auto-check completed (submit not clicked, as requested)
+2025-06-24 10:54:36,643 [INFO] [SCRAPE] Attempting to click tab: Error
+2025-06-24 10:54:36,662 [ERROR] Error during automation: Alert Text: guideBridge API Failed
+Message: Unexpected alert dialog detected. Performed handler "dismiss". Dialog text: guideBridge API Failed
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnexpectedAlertOpenError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:876:5
+GeckoDriver.prototype._handleUserPrompts@chrome://remote/content/marionette/driver.sys.mjs:3108:11
+
+2025-06-24 10:54:36,771 [ERROR] Saved error screenshot to: Error Screenshots/error_automation_script_failure_20250624-105436.png
+2025-06-24 11:00:15,633 [INFO] Browser closed
